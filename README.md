@@ -1,6 +1,8 @@
 # weather-app
 To work and develop my weather app project. 
 
-- [x] I've added a worflow to install Python
-- [ ] need to test
-- [ ] ...
+## Task List
+- [x] Add a worflow to install Python
+- [x] Add requirements file to pip install
+- [ ] Add a python file with basic testing
+- [ ] Add the basic python file to the workflow testing
