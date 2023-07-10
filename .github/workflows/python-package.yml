@@ -28,5 +28,7 @@ jobs:
         run: |
           pip list
       - name: Run python test file
+        env:
+          WEATHER_MAP_API: ${{ secrets.WEATHER_MAP_API }}
         run: |
           python "test-python.py"
