@@ -10,8 +10,11 @@ except KeyError:
 
 lat = 38.60492907958181
 lon = -9.211457576882433
-url = f'http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&exclude=hourly,daily&appid={API_KEY}'
+url = f'http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&exclude=hourly,daily&cnt=2&lang=pt&units=metric&appid={API_KEY}'
 
 response = requests.get(url)
 
 print(response.json())
+
+with open("weather-output.json", "w") as f:
+    f.write("Hello ")
