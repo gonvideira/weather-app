@@ -19,9 +19,4 @@ print(response.json())
 
 # r+ is for both reading and writing
 with open('weather-output.json', 'r+') as f:
-    try: 
-        existing_data = json.load(f)     #  load   [1, 2, 3]  from the file
-        existing_data.extend([4, 5, 6])  #  add    [4, 5, 6]   to the loaded data
-        json.dump(f, existing_data)     #   write  [1, 2, 3, 4, 5, 6]  to the file
-    except: 
-        json.dump(f,[4, 5, 6])
+    json.dump(f,response.json())
