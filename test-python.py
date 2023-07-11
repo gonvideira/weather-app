@@ -22,9 +22,8 @@ except requests.exceptions.SSLError as err:
     outfile.write(customca)
     print('That might have worked.')
 
-url = 'http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID='+API_KEY
+url = 'http://api.openweathermap.org/data/2.5/weather?q=Caparica,pt&APPID=' + API_KEY
 # response = requests.get('https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=44.34&lon=10.99&appid='+API_KEY+'&lang=pt')
-# response = requests.get('https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=44.34&lon=10.99')
 response = requests.get(url)
 
 print('Hello World!')
