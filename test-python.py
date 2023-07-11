@@ -11,7 +11,7 @@ except KeyError:
 
 try:
   print('Checking connection to Github...')
-  test = requests.get('https://api.github.com')
+  response = requests.get('https://api.github.com')
   print('Connection to Github OK.')
 except requests.exceptions.SSLError as err:
   print('SSL Error. Adding custom certs to Certifi store...')
