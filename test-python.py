@@ -19,4 +19,4 @@ print(response.json())
 
 # r+ is for both reading and writing
 with open('weather-output.json', 'r+') as f:
-    json.dump(f,[1,2,3])
+    json.dump(f,{'cod': '200', 'message': 0, 'cnt': 2})
