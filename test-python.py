@@ -1,5 +1,6 @@
 import requests
 import os
+import json
 
 try:
     API_KEY = os.environ['WEATHER_MAP_API']
@@ -16,5 +17,11 @@ response = requests.get(url)
 
 print(response.json())
 
-with open("weather-output.json", "w") as f:
-    f.write("Hello ")
+# r+ is for both reading and writing
+with open('weather-output.json', 'r+') as f:
+    try: 
+        existing_data = json.load(f)     #  load   [1, 2, 3]  from the file
+        existing_data.extend([4, 5, 6])  #  add    [4, 5, 6]   to the loaded data
+        json.dump(f, existing_data)     #   write  [1, 2, 3, 4, 5, 6]  to the file
+    except: 
+        json.dump(f,[4, 5, 6])
