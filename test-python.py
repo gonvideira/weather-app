@@ -17,5 +17,5 @@ url = f'http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&excl
 response = requests.get(url)
 
 print('Hello World!')
-print(response_Git.json())
+
 print(response.json())
