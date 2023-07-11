@@ -11,7 +11,7 @@ except KeyError:
 
 try:
   print('Checking connection to Github...')
-  response = requests.get('https://api.github.com')
+  response_Git = requests.get('https://api.github.com')
   print('Connection to Github OK.')
 except requests.exceptions.SSLError as err:
   print('SSL Error. Adding custom certs to Certifi store...')
@@ -22,10 +22,11 @@ except requests.exceptions.SSLError as err:
     outfile.write(customca)
     print('That might have worked.')
 
+url = 'https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=44.34&lon=10.99&appid=' + API_KEY
 # response = requests.get('https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=44.34&lon=10.99&appid='+API_KEY+'&lang=pt')
-# response = requests.get('https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=44.34&lon=10.99&appid=' + API_KEY)
 # response = requests.get('https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=44.34&lon=10.99')
-# test in mobile phone
+response = requests.get(url)
 
 print('Hello World!')
+print(response_Git.json())
 print(response.json())
