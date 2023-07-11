@@ -14,10 +14,13 @@ lon = -9.211457576882433
 url = f'http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&exclude=hourly,daily&cnt=2&lang=pt&units=metric&appid={API_KEY}'
 
 response = requests.get(url)
+data = response.json()['list']
 
 print(response.json())
 
-print(response.json()['list'])
+print(data)
+
+
 
 
 
@@ -45,5 +48,5 @@ Topper_student ={
 
 # r+ is for both reading and writing
 with open('weather-output.json', 'w') as f:
-    json.dump(Topper_student, f, indent = 6)
+    json.dump(data, f, indent = 6)
     f.close()
