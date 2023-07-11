@@ -17,6 +17,29 @@ response = requests.get(url)
 
 print(response.json())
 
+Topper_student ={  
+    "student1": {  
+        "name": "Ram",  
+        "subject": "python",  
+        "age": "24",  
+        "marks": "98"  
+    },  
+"student2": {  
+        "name": "sam",  
+        "subject": "Java",  
+        "age": "24",  
+        "marks": "92"  
+    },  
+"student3": {  
+        "name": "Radha",  
+        "subject": "Html",  
+        "age": "24",  
+        "marks": "96"  
+    },  
+  
+}
+
 # r+ is for both reading and writing
-with open('weather-output.json', 'r+') as f:
-    json.dump(f,{'cod': '200', 'message': 0, 'cnt': 2})
+with open('weather-output.json', 'w') as f:
+    json.dump(Topper_student, f, indent = 6)
+    f.close()
