@@ -19,4 +19,4 @@ print(response.json())
 
 # r+ is for both reading and writing
 with open('weather-output.json', 'r+') as f:
-    json.dump(f,response.json())
+    json.dumps(f,response.json())
