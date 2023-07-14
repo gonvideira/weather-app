@@ -32,11 +32,11 @@ jobs:
           WEATHER_MAP_API: ${{ secrets.WEATHER_MAP_API }}
         run: |
           python "test-python.py"
-      - name: commit files
+      - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated files" --allow-empty)
       - name: Push files
-        run: git push -all
+        run: git push --all
