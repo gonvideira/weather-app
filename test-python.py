@@ -17,7 +17,7 @@ def write_json(new_data, filename='weather-output.json'):
         # First we load existing data into a dict.
         file_data = json.load(file)
         # Join new_data with file_data inside emp_details / I took ['empl_data'] out.. may have to add if error
-        file_data.append(new_data)
+        file_data.append(new_data[0])
         # Sets file's current position at offset.
         file.seek(0)
         # convert back to json.
