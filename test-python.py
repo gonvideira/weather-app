@@ -31,9 +31,9 @@ def retrieve_data():
     new_data = response.json()['list']
     # print response and data
     print(response.json()['cod'])
-    print(new_data)
+    print(new_data[0])
     # call write_json function to append new data to file
-    write_json(new_data)
+    # write_json(new_data)
 
 # will eventually need to check if duplicates were appended
 
