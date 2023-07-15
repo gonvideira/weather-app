@@ -17,7 +17,7 @@ def write_json(new_data, filename='weather-output.json'):
         # First we load existing data into a dict.
         file_data = json.load(file)
         # Join new_data with file_data inside emp_details / I took ['empl_data'] out.. may have to add if error
-        file_data.append(new_data[0])
+        file_data.append(new_data)
         # Sets file's current position at offset.
         file.seek(0)
         # convert back to json.
@@ -33,7 +33,7 @@ def retrieve_data():
     print(response.json()['cod'])
     print(new_data[0])
     # call write_json function to append new data to file
-    # write_json(new_data)
+    write_json(new_data[0])
 
 # will eventually need to check if duplicates were appended
 
