@@ -43,7 +43,7 @@ def write_json(new_data, filename='weather-output.json'):
         print(new_data)
         # Sets file's current position at offset.
         # file.seek(0)
-        # unique_data = remove_duplicate_items(file_data, "dt")
+        unique_data = remove_duplicate_items(file_data, "dt")
         # convert back to json.
         json.dump(file_data, file, indent = 6)
         file.close()
