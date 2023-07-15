@@ -23,7 +23,7 @@ def remove_duplicate_items(_api_data, _key):
             unique_elements.append(_api_data[i][_key])
             keys.append(i)
 
-    for key in reverse(keys):
+    for key in reversed(keys):
         cleaned_data.append(_api_data[key])
 
     print(
