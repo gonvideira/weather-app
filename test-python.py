@@ -14,24 +14,20 @@ lon = -9.211457576882433
 
 # function to check if duplicates were appended and delete the initial ones
 def remove_duplicate_items(_api_data, _key):
-    print("Initial items in list: {}".format(len(_api_data)))
+    print(f"Initial items in list: {len(_api_data)}")
     unique_elements = []
     cleaned_data = []
     keys = []
-    for i, j in enumerate(_api_data):
+    for i,j in enumerate(_api_data):
+        print(_api_data[i][_key])
         if _api_data[i][_key] not in unique_elements:
             unique_elements.append(_api_data[i][_key])
             keys.append(i)
-
     for key in reversed(keys):
         cleaned_data.append(_api_data[key])
-
     print(
-        "Total duplicates removed: {}, Total items: {}, Final items:{}".format(
-            (len(_api_data) - len(unique_elements)),
-            len(_api_data), len(unique_elements)))
-    print("Final items in list: {}".format(len(cleaned_data)))
-
+        f"Total duplicates removed: {len(_api_data) - len(unique_elements)}, Total items: {len(_api_data)}, Final items:{len(unique_elements)}")
+    print(f"Final items in list: {len(cleaned_data)}")
     return cleaned_data
 
 # functtion to write new data in existing json file
@@ -39,11 +35,13 @@ def write_json(new_data, filename='weather-output.json'):
     with open(filename,'r+') as file:
         # First we load existing data into a dict.
         file_data = json.load(file)
-        # Join new_data with file_data inside emp_details / I took ['empl_data'] out.. may have to add if error
+        # Join new_data with file_data
         file_data.append(new_data)
-        # Sets file's current position at offset.
-        file.seek(0)
         # delete duplicates
+        new_data = remove_duplicate_items(file_data, 'dt')
+        print(new_data)
+        # Sets file's current position at offset.
+        # file.seek(0)
         # unique_data = remove_duplicate_items(file_data, "dt")
         # convert back to json.
         json.dump(file_data, file, indent = 6)
