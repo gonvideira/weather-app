@@ -54,9 +54,9 @@ def retrieve_data():
     new_data = response.json()['list']
     # print response and data
     print(response.json()['cod'])
-    print(new_data[0])
+    print(new_data)
     # call write_json function to append new data to file
-    write_json(new_data[0])
+    write_json(new_data)
 
 
 if __name__ == "__main__":
