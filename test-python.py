@@ -1,13 +1,9 @@
+import json
 import requests
 import os
-import json
 
-try:
-    API_KEY = os.environ['WEATHER_MAP_API']
-except KeyError:
-    API_KEY = 'Token not available!'
-    print(API_KEY)
-    # or raise an error if it's not available so that the workflow fails
+
+API_KEY = os.environ['WEATHER_MAP_API']
 
 lat = 38.60492907958181
 lon = -9.211457576882433
@@ -38,7 +34,8 @@ def write_json(new_data, filename='weather-output.json'):
         print('File data: ')
         print(file_data)
         # Join new_data with file_data
-        file_data.append(new_data)
+        for data in new_data:
+            file_data.append(data)
         print('File data appended: ')
         print(file_data)
         # delete duplicates
@@ -61,7 +58,6 @@ def retrieve_data():
     print(new_data)
     # call write_json function to append new data to file
     write_json(new_data)
-
 
 if __name__ == "__main__":
     retrieve_data()
