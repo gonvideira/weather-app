@@ -11,16 +11,31 @@ except KeyError:
 
 lat = 38.60492907958181
 lon = -9.211457576882433
-url = f'http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&exclude=hourly,daily&cnt=2&lang=pt&units=metric&appid={API_KEY}'
 
-response = requests.get(url)
-data = response.json()['list']
+def write_json(new_data, filename='weather-output.json'):
+    with open(filename,'r+') as file:
+        # First we load existing data into a dict.
+        file_data = json.load(file)
+        # Join new_data with file_data inside emp_details / I took ['empl_data'] out.. may have to add if error
+        file_data.append(new_data)
+        # Sets file's current position at offset.
+        file.seek(0)
+        # convert back to json.
+        json.dump(file_data, file, indent = 6)
+        file.close()
 
-print(response.json())
+def retrieve_data(lat, long, API_KEY):
+    # url to fecth new data
+    url = f'http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&exclude=hourly,daily&cnt=2&lang=pt&units=metric&appid={API_KEY}'
+    response = requests.get(url)
+    new_data = response.json()['list']
+    # print response and data
+    print(response.json()['cod'])
+    print(new_data)
+    # call write_json function to append new data to file
+    write_json(new_data)
 
-print(data)
+# will eventually need to check if duplicates were appended
 
-# r+ is for both reading and writing
-with open('weather-output.json', 'w') as f:
-    json.dump(data, f, indent = 6)
-    f.close()
+if __name__ == "__main"":
+    retrieve_data()
