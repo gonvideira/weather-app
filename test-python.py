@@ -35,8 +35,12 @@ def write_json(new_data, filename='weather-output.json'):
     with open(filename,'r+') as file:
         # First we load existing data into a dict.
         file_data = json.load(file)
+        print('File data: ')
+        print(file_data)
         # Join new_data with file_data
         file_data.append(new_data)
+        print('File data appended: ')
+        print(file_data)
         # delete duplicates
         new_data = remove_duplicate_items(file_data, 'dt')
         print(new_data)
