@@ -24,7 +24,7 @@ def write_json(new_data, filename='weather-output.json'):
         json.dump(file_data, file, indent = 6)
         file.close()
 
-def retrieve_data(lat, long, API_KEY):
+def retrieve_data():
     # url to fecth new data
     url = f'http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&exclude=hourly,daily&cnt=2&lang=pt&units=metric&appid={API_KEY}'
     response = requests.get(url)
@@ -37,5 +37,5 @@ def retrieve_data(lat, long, API_KEY):
 
 # will eventually need to check if duplicates were appended
 
-if __name__ == "__main"":
+if __name__ == "__main__":
     retrieve_data()
