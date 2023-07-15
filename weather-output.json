@@ -70,5 +70,77 @@
                   "pod": "d"
             },
             "dt_txt": "2023-07-15 12:00:00"
+      },
+      {
+            "dt": 1689422400,
+            "main": {
+                  "temp": 22.49,
+                  "feels_like": 22.31,
+                  "temp_min": 22.49,
+                  "temp_max": 23.16,
+                  "pressure": 1018,
+                  "sea_level": 1018,
+                  "grnd_level": 1019,
+                  "humidity": 58,
+                  "temp_kf": -0.67
+            },
+            "weather": [
+                  {
+                        "id": 802,
+                        "main": "Clouds",
+                        "description": "nuvens dispersas",
+                        "icon": "03d"
+                  }
+            ],
+            "clouds": {
+                  "all": 48
+            },
+            "wind": {
+                  "speed": 7.04,
+                  "deg": 311,
+                  "gust": 7.99
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                  "pod": "d"
+            },
+            "dt_txt": "2023-07-15 12:00:00"
+      },
+      {
+            "dt": 1689422400,
+            "main": {
+                  "temp": 22.68,
+                  "feels_like": 22.6,
+                  "temp_min": 22.68,
+                  "temp_max": 23.16,
+                  "pressure": 1018,
+                  "sea_level": 1018,
+                  "grnd_level": 1019,
+                  "humidity": 61,
+                  "temp_kf": -0.48
+            },
+            "weather": [
+                  {
+                        "id": 802,
+                        "main": "Clouds",
+                        "description": "nuvens dispersas",
+                        "icon": "03d"
+                  }
+            ],
+            "clouds": {
+                  "all": 48
+            },
+            "wind": {
+                  "speed": 7.04,
+                  "deg": 311,
+                  "gust": 7.99
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                  "pod": "d"
+            },
+            "dt_txt": "2023-07-15 12:00:00"
       }
 ]
