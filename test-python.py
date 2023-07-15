@@ -2,11 +2,11 @@ import json
 import requests
 import os
 
-
+# Constant variable
 API_KEY = os.environ['WEATHER_MAP_API']
-
-lat = 38.60492907958181
-lon = -9.211457576882433
+LAT = 38.60492907958181
+LON = -9.211457576882433
+COUNT = 6
 
 # function to check if duplicates were appended and delete the initial ones
 def remove_duplicate_items(_api_data, _key):
@@ -44,8 +44,8 @@ def write_json(new_data, filename='weather-output.json'):
         # Sets file's current position at offset.
         file.seek(0)
         file.close()
-    print(f"Overwriting {filename}")
     
+    print(f'Overwriting {filename}')
     with open(filename, "wt") as file:
         json.dump(new_data, file, indent = 6)    
         # unique_data = remove_duplicate_items(file_data, "dt")
@@ -54,7 +54,7 @@ def write_json(new_data, filename='weather-output.json'):
 
 def retrieve_data():
     # url to fecth new data
-    url = f'http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&exclude=hourly,daily&cnt=2&lang=pt&units=metric&appid={API_KEY}'
+    url = f'http://api.openweathermap.org/data/2.5/forecast?lat={LAT}&lon={LON}&exclude=hourly,daily&cnt={COUNT}&lang=pt&units=metric&appid={API_KEY}'
     response = requests.get(url)
     new_data = response.json()['list']
     # print response and data
