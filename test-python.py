@@ -28,7 +28,7 @@ def remove_duplicate_items(_api_data, _key):
 
 # functtion to write new data in existing json file
 def write_json(new_data, filename='weather-output.json'):
-    with open(filename,'r+') as file:
+    with open(filename,'r') as file:
         # First we load existing data into a dict.
         file_data = json.load(file)
         print('File data: ')
@@ -42,10 +42,14 @@ def write_json(new_data, filename='weather-output.json'):
         new_data = remove_duplicate_items(file_data, 'dt')
         print(new_data)
         # Sets file's current position at offset.
-        # file.seek(0)
+        file.seek(0)
+        file.close()
+    print(f"Overwriting {filename}")
+    
+    with open(filename, "wt") as file:
+        json.dump(new_data, file, indent = 6)    
         # unique_data = remove_duplicate_items(file_data, "dt")
         # convert back to json.
-        json.dump(file_data, file, indent = 6)
         file.close()
 
 def retrieve_data():
