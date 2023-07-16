@@ -29,7 +29,7 @@ def remove_duplicate_items(_api_data, _key):
         date_api_format = dt.strptime(_api_data[i]['dt_txt'], '%Y-%m-%d %H:%M:%S')
         date_api = date_api_format.replace(tzinfo=pytz.utc)
         for w in _api_data[i]["wind"]:
-            w = convert_knots(w)
+            print(f'w value is: {w}')
         if _api_data[i][_key] not in unique_elements and date_api >= NOW:
             unique_elements.append(_api_data[i][_key])
             keys.append(i)
