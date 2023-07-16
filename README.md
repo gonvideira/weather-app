@@ -8,6 +8,7 @@ To work and develop my weather app project.
 - [x] Add the basic python file to the workflow testing
 - [x] Find public API to work with
 - [ ] Work on a more complicated python file and try to commit changes to a local file in the repo
+- [ ] convert wind to knots
 
 > Check the [Python engineer page](https://www.python-engineer.com/posts/run-python-github-actions/)  
 > Public weather API: [Open Weather Maps API](https://openweathermap.org/api/one-call-3#how) and [Open Weather Maps - Caparica](https://openweathermap.org/city/8013114) and [AccuWeather](https://developer.accuweather.com/packages)
@@ -22,3 +23,7 @@ https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=44.34&lon=10.99&appi
 https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=38.603504185497236&lon=-9.211465596431635&appid={API key} # Caparica
 
 ```
+
+## About the output file
+
+wind is in m/s
