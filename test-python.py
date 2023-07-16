@@ -25,7 +25,7 @@ def remove_duplicate_items(_api_data, _key):
             print('is later')
         else:
             print('is sooner')
-        if _api_data[i][_key] not in unique_elements:
+        if _api_data[i][_key] not in unique_elements and date_api >= NOW:
             unique_elements.append(_api_data[i][_key])
             keys.append(i)
     for key in reversed(keys):
