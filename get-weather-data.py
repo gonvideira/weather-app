@@ -29,8 +29,9 @@ def remove_duplicate_items(_api_data, _key):
         date_api_format = dt.strptime(_api_data[i]['dt_txt'], '%Y-%m-%d %H:%M:%S')
         date_api = date_api_format.replace(tzinfo=pytz.utc)
         for w in _api_data[i]["wind"]:
-            print(f'w value is: {w}')
-            print(f'w value is: {_api_data[i]["wind"][w]}')
+            print(f'w value in m/s is: {_api_data[i]["wind"][w]}')
+            _api_data[i]["wind"][w] = convert_knots(_api_data[i]["wind"][w])
+            print(f'w value in knots is: {_api_data[i]["wind"][w]}')
         if _api_data[i][_key] not in unique_elements and date_api >= NOW:
             unique_elements.append(_api_data[i][_key])
             keys.append(i)
@@ -76,7 +77,7 @@ def retrieve_data():
     response = requests.get(url)
     new_data = response.json()['list']
     # print response and data
-    print(response.json()['cod'])
+    # print(response.json()['cod'])
     print(new_data)
     # call write_json function to append new data to file
     write_json(new_data)
