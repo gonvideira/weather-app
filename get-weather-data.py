@@ -30,6 +30,7 @@ def remove_duplicate_items(_api_data, _key):
         date_api = date_api_format.replace(tzinfo=pytz.utc)
         for w in _api_data[i]["wind"]:
             print(f'w value is: {w}')
+            print(f'w value is: {_api_data[i]["wind"][w]}')
         if _api_data[i][_key] not in unique_elements and date_api >= NOW:
             unique_elements.append(_api_data[i][_key])
             keys.append(i)
@@ -48,13 +49,13 @@ def write_json(new_data, filename='weather-output.json'):
     with open(filename,'r') as file:
         # First we load existing data into a dict.
         file_data = json.load(file)
-        print('File data: ')
-        print(file_data)
+        # print('File data: ')
+        # print(file_data)
         # Join new_data with file_data
         for data in new_data:
             file_data.append(data)
-        print('File data appended: ')
-        print(file_data)
+        # print('File data appended: ')
+        # print(file_data)
         # delete duplicates
         new_data = remove_duplicate_items(file_data, 'dt')
         print(new_data)
