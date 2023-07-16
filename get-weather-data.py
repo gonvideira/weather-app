@@ -28,10 +28,14 @@ def remove_duplicate_items(_api_data, _key):
         print(_api_data[i][_key])
         date_api_format = dt.strptime(_api_data[i]['dt_txt'], '%Y-%m-%d %H:%M:%S')
         date_api = date_api_format.replace(tzinfo=pytz.utc)
-        for w in _api_data[i]["wind"]:
-            print(f'w value in m/s is: {_api_data[i]["wind"][w]}')
-            _api_data[i]["wind"][w] = convert_knots(_api_data[i]["wind"][w])
-            print(f'w value in knots is: {_api_data[i]["wind"][w]}')
+        # convert wind values to knots - speed
+        print(f'speed value in m/s is: {_api_data[i]["wind"]["speed"]}')
+        _api_data[i]["wind"]["speed"] = convert_knots(_api_data[i]["wind"]["speed"])
+        print(f'speed value in knots is: {_api_data[i]["wind"]["speed"]}')
+        # convert wind values to knots - gust
+        print(f'gust value in m/s is: {_api_data[i]["wind"]["gust"]}')
+        _api_data[i]["wind"]["gust"] = convert_knots(_api_data[i]["wind"]["gust"])
+        print(f'gust value in knots is: {_api_data[i]["wind"]["gust"]}')
         if _api_data[i][_key] not in unique_elements and date_api >= NOW:
             unique_elements.append(_api_data[i][_key])
             keys.append(i)
