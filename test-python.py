@@ -33,6 +33,9 @@ def remove_duplicate_items(_api_data, _key):
     print(
         f"Total duplicates removed: {len(_api_data) - len(unique_elements)}, Total items: {len(_api_data)}, Final items:{len(unique_elements)}")
     print(f"Final items in list: {len(cleaned_data)}")
+    # Sort the JSON data based on the value of the brand key
+    cleaned_data.sort(key=lambda x: x['dt_txt'])
+    print(f'The sorted JSON data based on the value of the date:\n{cleaned_data}')
     return cleaned_data
 
 # functtion to write new data in existing json file
