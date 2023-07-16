@@ -31,7 +31,7 @@ jobs:
         env:
           WEATHER_MAP_API: ${{ secrets.WEATHER_MAP_API }}
         run: |
-          python "test-python.py"
+          python "get-weather-data.py"
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
