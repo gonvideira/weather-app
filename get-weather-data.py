@@ -14,6 +14,10 @@ NOW = dt.now(tz.utc)
 
 print(f'Time now is {NOW}')
 
+def convert_knots(wind_value):
+    wind_value *= 1.94384
+    return wind_value
+
 # function to check if duplicates were appended and delete the initial ones
 def remove_duplicate_items(_api_data, _key):
     print(f"Initial items in list: {len(_api_data)}")
@@ -24,10 +28,8 @@ def remove_duplicate_items(_api_data, _key):
         print(_api_data[i][_key])
         date_api_format = dt.strptime(_api_data[i]['dt_txt'], '%Y-%m-%d %H:%M:%S')
         date_api = date_api_format.replace(tzinfo=pytz.utc)
-        if date_api >= NOW:
-            print('is later')
-        else:
-            print('is sooner')
+        for w in _api_data[i]["wind"]:
+            w = convert_knots(w)
         if _api_data[i][_key] not in unique_elements and date_api >= NOW:
             unique_elements.append(_api_data[i][_key])
             keys.append(i)
