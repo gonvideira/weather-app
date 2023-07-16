@@ -26,4 +26,4 @@ https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=38.603504185497236&l
 
 ## About the output file
 
-wind is in m/s
+wind is in m/s --> need to multiply by 1.94384 to get knots
