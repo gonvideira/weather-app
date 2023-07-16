@@ -2,13 +2,14 @@ import json
 import requests
 import os
 from datetime import datetime as dt
+from datetime import timezone as tz
 
 # Constant variable
 API_KEY = os.environ['WEATHER_MAP_API']
 LAT = 38.60492907958181
 LON = -9.211457576882433
 COUNT = 6
-NOW = dt.now()
+NOW = dt.now(tz.utc)
 
 print(f'Time now is {NOW}')
 
