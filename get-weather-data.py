@@ -9,7 +9,7 @@ import pytz
 API_KEY = os.environ['WEATHER_MAP_API']
 LAT = 38.60492907958181
 LON = -9.211457576882433
-COUNT = 6
+COUNT = 20
 NOW = dt.now(tz.utc)
 
 print(f'Time now is {NOW}')
