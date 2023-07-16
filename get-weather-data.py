@@ -3,6 +3,7 @@ import requests
 import os
 from datetime import datetime as dt
 from datetime import timezone as tz
+import pytz
 
 # Constant variable
 API_KEY = os.environ['WEATHER_MAP_API']
@@ -21,7 +22,8 @@ def remove_duplicate_items(_api_data, _key):
     keys = []
     for i,j in enumerate(_api_data):
         print(_api_data[i][_key])
-        date_api = dt.strptime(_api_data[i]['dt_txt'], '%Y-%m-%d %H:%M:%S')
+        date_api_format = dt.strptime(_api_data[i]['dt_txt'], '%Y-%m-%d %H:%M:%S')
+        date_api = date_api_format.replace(tzinfo=pytz.utc)
         if date_api >= NOW:
             print('is later')
         else:
