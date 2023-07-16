@@ -1,41 +1,5 @@
 [
       {
-            "dt": 1689519600,
-            "main": {
-                  "temp": 23.25,
-                  "feels_like": 22.73,
-                  "temp_min": 23.25,
-                  "temp_max": 24,
-                  "pressure": 1017,
-                  "sea_level": 1017,
-                  "grnd_level": 1016,
-                  "humidity": 42,
-                  "temp_kf": -0.75
-            },
-            "weather": [
-                  {
-                        "id": 802,
-                        "main": "Clouds",
-                        "description": "nuvens dispersas",
-                        "icon": "03d"
-                  }
-            ],
-            "clouds": {
-                  "all": 31
-            },
-            "wind": {
-                  "speed": 9.26,
-                  "deg": 335,
-                  "gust": 9.55
-            },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                  "pod": "d"
-            },
-            "dt_txt": "2023-07-16 15:00:00"
-      },
-      {
             "dt": 1689530400,
             "main": {
                   "temp": 22.13,
