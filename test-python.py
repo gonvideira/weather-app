@@ -1,12 +1,16 @@
 import json
 import requests
 import os
+from datetime import datetime as dt
 
 # Constant variable
 API_KEY = os.environ['WEATHER_MAP_API']
 LAT = 38.60492907958181
 LON = -9.211457576882433
 COUNT = 6
+NOW = dt.now()
+
+print(f'Time now is {NOW}')
 
 # function to check if duplicates were appended and delete the initial ones
 def remove_duplicate_items(_api_data, _key):
@@ -16,7 +20,12 @@ def remove_duplicate_items(_api_data, _key):
     keys = []
     for i,j in enumerate(_api_data):
         print(_api_data[i][_key])
-        if _api_data[i][_key] not in unique_elements:
+        date_api = dt.strptime(_api_data[i]['dt_txt'], '%Y-%m-%d %H:%M:%S')
+        if date_api >= NOW:
+            print('is later')
+        else:
+            print('is sooner')
+        if _api_data[i][_key] not in unique_elements and date_api >= NOW:
             unique_elements.append(_api_data[i][_key])
             keys.append(i)
     for key in reversed(keys):
