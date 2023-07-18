@@ -6,6 +6,10 @@ Conversion to pdf or other file types will be made with PANDOC at github actions
 
 import json
 
+# # input variables
+FN = 'output/weather-output.json'
+TITLE = "WEATHER DATA FOR COSTA DA CAPARICA!"
+
 class ConvertJson():
     """Class converting json"""
 
@@ -53,10 +57,6 @@ class ConvertJson():
         with open(output_fn, 'w', encoding='utf-8') as writer_file:
             writer_file.writelines(self.mddata)
         print('Dict successfully converted to md')
-
-# # driver code - uncomment and fill out
-FN = 'output/weather-output.json'
-TITLE = "WEATHER DATA FOR COSTA DA CAPARICA!"
 
 def treat_data():
     """ Main function that runs on main """
