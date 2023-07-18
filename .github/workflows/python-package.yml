@@ -42,7 +42,7 @@ jobs:
         run: git push --all
 
   treat:
-
+    needs: retrieve
     runs-on: ubuntu-latest
 
     steps:
