@@ -31,17 +31,12 @@ def remove_duplicate_items(_api_data, _key):
     cleaned_data = []
     keys = []
     for i,j in enumerate(_api_data):
-        print(_api_data[i][_key])
         date_api_format = dt.strptime(_api_data[i]['dt_txt'], '%Y-%m-%d %H:%M:%S')
         date_api = date_api_format.replace(tzinfo=pytz.utc)
         # convert wind values to knots - speed
-        print(f'speed value in m/s is: {_api_data[i]["wind"]["speed"]}')
         _api_data[i]["wind"]["speed"] = convert_knots(_api_data[i]["wind"]["speed"])
-        print(f'speed value in knots is: {_api_data[i]["wind"]["speed"]}')
         # convert wind values to knots - gust
-        print(f'gust value in m/s is: {_api_data[i]["wind"]["gust"]}')
         _api_data[i]["wind"]["gust"] = convert_knots(_api_data[i]["wind"]["gust"])
-        print(f'gust value in knots is: {_api_data[i]["wind"]["gust"]}')
         if _api_data[i][_key] not in unique_elements and date_api >= NOW:
             unique_elements.append(_api_data[i][_key])
             keys.append(i)
@@ -55,7 +50,7 @@ def remove_duplicate_items(_api_data, _key):
     print(f'The sorted JSON data based on the value of the date:\n{cleaned_data}')
     return cleaned_data
 
-# functtion to write new data in existing json file
+# function to write new data in existing json file
 def write_json(new_data, filename=FN):
     with open(filename,'r') as file:
         # First we load existing data into a dict.
@@ -65,20 +60,15 @@ def write_json(new_data, filename=FN):
         # Join new_data with file_data
         for data in new_data:
             file_data.append(data)
-        # print('File data appended: ')
-        # print(file_data)
         # delete duplicates
         new_data = remove_duplicate_items(file_data, 'dt')
-        print(new_data)
         # Sets file's current position at offset.
         file.seek(0)
         file.close()
     
     print(f'Overwriting {filename}')
     with open(filename, "wt") as file:
-        json.dump(new_data, file, indent = 6)    
-        # unique_data = remove_duplicate_items(file_data, "dt")
-        # convert back to json.
+        json.dump(new_data, file, indent = 6)
         file.close()
 
 def retrieve_data():
@@ -86,9 +76,6 @@ def retrieve_data():
     url = f'http://api.openweathermap.org/data/2.5/forecast?lat={LAT}&lon={LON}&exclude=hourly,daily&cnt={COUNT}&lang=pt&units=metric&appid={API_KEY}'
     response = requests.get(url)
     new_data = response.json()['list']
-    # print response and data
-    # print(response.json()['cod'])
-    print(new_data)
     # call write_json function to append new data to file
     write_json(new_data)
 
