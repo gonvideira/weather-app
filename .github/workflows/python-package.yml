@@ -38,8 +38,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated files" --allow-empty)
-      - name: Push files
-        run: git push --all
 
   treat:
     needs: retrieve
