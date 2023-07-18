@@ -1,3 +1,8 @@
+"""
+Python file for retrieving weather data.
+
+This file is hard wired to Costa da Caparica. 
+"""
 import json
 import requests
 import os
