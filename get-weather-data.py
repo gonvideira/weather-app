@@ -11,6 +11,7 @@ LAT = 38.60492907958181
 LON = -9.211457576882433
 COUNT = 20
 NOW = dt.now(tz.utc)
+FN = 'output/weather-output.json'
 
 print(f'Time now is {NOW}')
 
@@ -50,7 +51,7 @@ def remove_duplicate_items(_api_data, _key):
     return cleaned_data
 
 # functtion to write new data in existing json file
-def write_json(new_data, filename='weather-output.json'):
+def write_json(new_data, filename=FN):
     with open(filename,'r') as file:
         # First we load existing data into a dict.
         file_data = json.load(file)
