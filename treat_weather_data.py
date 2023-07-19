@@ -8,6 +8,7 @@ import json
 
 # # input variables
 FN = 'output/weather-output.json'
+OUTPUT = 'output/README.md'
 TITLE = "WEATHER DATA FOR COSTA DA CAPARICA!"
 
 class ConvertJson():
@@ -61,7 +62,7 @@ class ConvertJson():
 def treat_data():
     """ Main function that runs on main """
     converter = ConvertJson(FN, TITLE)
-    converter.convert_dict_to_md(output_fn='README-test.md') # uncomment for markdown output
+    converter.convert_dict_to_md(output_fn = OUTPUT)
 
 if __name__ == "__main__":
     treat_data()
