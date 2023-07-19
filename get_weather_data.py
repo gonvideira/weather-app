@@ -20,11 +20,6 @@ FN = 'output/weather-output.json'
 
 print(f'Time now is {NOW}')
 
-def convert_knots(wind_value):
-    """function to convert wind in m/s into knots"""
-    wind_value *= 1.94384
-    return wind_value
-
 def remove_duplicate_items(_api_data, _key):
     """function to check if duplicates were appended and delete the initial ones"""
     print(f"Initial items in list: {len(_api_data)}")
@@ -75,17 +70,6 @@ def retrieve_data():
     new_data = response.json()['list']
     # call write_json function to append new data to file
     write_json(new_data)
-
-"""
-# convert wind values to knots - speed
-print(f'speed value in m/s is: {_api_data[i]["wind"]["speed"]}')
-_api_data[i]["wind"]["speed"] = convert_knots(_api_data[i]["wind"]["speed"])
-print(f'speed value in knots is: {_api_data[i]["wind"]["speed"]}')
-# convert wind values to knots - gust
-print(f'gust value in m/s is: {_api_data[i]["wind"]["gust"]}')
-_api_data[i]["wind"]["gust"] = convert_knots(_api_data[i]["wind"]["gust"])
-print(f'gust value in knots is: {_api_data[i]["wind"]["gust"]}')
-"""
 
 if __name__ == "__main__":
     retrieve_data()

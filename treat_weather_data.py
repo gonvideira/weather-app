@@ -49,15 +49,24 @@ class ConvertJson():
                 text += f'**{content_header}**: {content_data}\n'
             text += '#### Main wind info\n'
             for content_header, content_data in dct['wind'].items():
-                text += f'**{content_header}**: {content_data}\n'
+                if content_header == 'deg':
+                    text += f'**{content_header}**: {content_data}\n'
+                else:
+                    converted_data = convert_knots(content_data)
+                    text += f'**{content_header}**: {converted_data}\n'
             text += '\n'
         return text
 
     def convert_dict_to_md(self, output_fn):
-        """Function to transform json dictionary to md"""
+        """ Function to transform json dictionary to md """
         with open(output_fn, 'w', encoding='utf-8') as writer_file:
             writer_file.writelines(self.mddata)
         print('Dict successfully converted to md')
+
+def convert_knots(wind_value):
+    """ Function to convert wind in m/s into knots """
+    wind_value *= 1.94384
+    return wind_value
 
 def treat_data():
     """ Main function that runs on main """
