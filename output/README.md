@@ -16,10 +16,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01d
-#### Main wind info
-**speed**: 16.2116256 knots
+#### 🪁 Main wind info
+**speed**: 16 knots
 **deg**: 334 degrees
-**gust**: 19.9632368 knots
+**gust**: 20 knots
 
 ## Forecast for 19 of Jul at 22:00
 ### céu limpo
@@ -38,10 +38,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01n
-#### Main wind info
-**speed**: 13.6846336 knots
+#### 🪁 Main wind info
+**speed**: 14 knots
 **deg**: 339 degrees
-**gust**: 24.2591232 knots
+**gust**: 24 knots
 
 ## Forecast for 20 of Jul at 01:00
 ### céu limpo
@@ -60,10 +60,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01n
-#### Main wind info
-**speed**: 10.8660656 knots
+#### 🪁 Main wind info
+**speed**: 11 knots
 **deg**: 342 degrees
-**gust**: 20.4297584 knots
+**gust**: 20 knots
 
 ## Forecast for 20 of Jul at 04:00
 ### céu limpo
@@ -82,10 +82,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01n
-#### Main wind info
-**speed**: 10.7494352 knots
+#### 🪁 Main wind info
+**speed**: 11 knots
 **deg**: 340 degrees
-**gust**: 20.7796496 knots
+**gust**: 21 knots
 
 ## Forecast for 20 of Jul at 07:00
 ### céu limpo
@@ -104,10 +104,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01d
-#### Main wind info
-**speed**: 10.4772976 knots
+#### 🪁 Main wind info
+**speed**: 10 knots
 **deg**: 342 degrees
-**gust**: 21.207294400000002 knots
+**gust**: 21 knots
 
 ## Forecast for 20 of Jul at 10:00
 ### céu limpo
@@ -126,10 +126,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01d
-#### Main wind info
-**speed**: 12.6543984 knots
+#### 🪁 Main wind info
+**speed**: 13 knots
 **deg**: 333 degrees
-**gust**: 17.4556832 knots
+**gust**: 17 knots
 
 ## Forecast for 20 of Jul at 13:00
 ### céu limpo
@@ -148,10 +148,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01d
-#### Main wind info
-**speed**: 15.3174592 knots
+#### 🪁 Main wind info
+**speed**: 15 knots
 **deg**: 317 degrees
-**gust**: 16.8725312 knots
+**gust**: 17 knots
 
 ## Forecast for 20 of Jul at 16:00
 ### céu limpo
@@ -170,10 +170,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01d
-#### Main wind info
-**speed**: 16.2505024 knots
+#### 🪁 Main wind info
+**speed**: 16 knots
 **deg**: 318 degrees
-**gust**: 18.5442336 knots
+**gust**: 19 knots
 
 ## Forecast for 20 of Jul at 19:00
 ### céu limpo
@@ -192,10 +192,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01d
-#### Main wind info
-**speed**: 15.278582400000001 knots
+#### 🪁 Main wind info
+**speed**: 15 knots
 **deg**: 324 degrees
-**gust**: 20.040990400000002 knots
+**gust**: 20 knots
 
 ## Forecast for 20 of Jul at 22:00
 ### céu limpo
@@ -214,10 +214,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01n
-#### Main wind info
-**speed**: 11.624163200000002 knots
+#### 🪁 Main wind info
+**speed**: 12 knots
 **deg**: 334 degrees
-**gust**: 20.5658272 knots
+**gust**: 21 knots
 
 ## Forecast for 21 of Jul at 01:00
 ### céu limpo
@@ -236,10 +236,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01n
-#### Main wind info
-**speed**: 9.23324 knots
+#### 🪁 Main wind info
+**speed**: 9 knots
 **deg**: 330 degrees
-**gust**: 17.8250128 knots
+**gust**: 18 knots
 
 ## Forecast for 21 of Jul at 04:00
 ### céu limpo
@@ -258,10 +258,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01n
-#### Main wind info
-**speed**: 7.580976 knots
+#### 🪁 Main wind info
+**speed**: 8 knots
 **deg**: 321 degrees
-**gust**: 15.8228576 knots
+**gust**: 16 knots
 
 ## Forecast for 21 of Jul at 07:00
 ### céu limpo
@@ -280,10 +280,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01d
-#### Main wind info
-**speed**: 6.511864 knots
+#### 🪁 Main wind info
+**speed**: 7 knots
 **deg**: 316 degrees
-**gust**: 12.518329600000001 knots
+**gust**: 13 knots
 
 ## Forecast for 21 of Jul at 10:00
 ### céu pouco nublado
@@ -302,10 +302,10 @@
 **main**: Clouds
 **description**: céu pouco nublado
 **icon**: 02d
-#### Main wind info
-**speed**: 11.3325872 knots
+#### 🪁 Main wind info
+**speed**: 11 knots
 **deg**: 311 degrees
-**gust**: 13.8595792 knots
+**gust**: 14 knots
 
 ## Forecast for 21 of Jul at 13:00
 ### céu pouco nublado
@@ -324,10 +324,10 @@
 **main**: Clouds
 **description**: céu pouco nublado
 **icon**: 02d
-#### Main wind info
-**speed**: 13.023728 knots
+#### 🪁 Main wind info
+**speed**: 13 knots
 **deg**: 301 degrees
-**gust**: 13.801264 knots
+**gust**: 14 knots
 
 ## Forecast for 21 of Jul at 16:00
 ### céu limpo
@@ -346,10 +346,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01d
-#### Main wind info
-**speed**: 14.773183999999999 knots
+#### 🪁 Main wind info
+**speed**: 15 knots
 **deg**: 307 degrees
-**gust**: 17.300176 knots
+**gust**: 17 knots
 
 ## Forecast for 21 of Jul at 19:00
 ### céu limpo
@@ -368,10 +368,10 @@
 **main**: Clear
 **description**: céu limpo
 **icon**: 01d
-#### Main wind info
-**speed**: 13.4513728 knots
+#### 🪁 Main wind info
+**speed**: 13 knots
 **deg**: 314 degrees
-**gust**: 17.300176 knots
+**gust**: 17 knots
 
 ## Forecast for 21 of Jul at 22:00
 ### nuvens quebradas
@@ -390,10 +390,10 @@
 **main**: Clouds
 **description**: nuvens quebradas
 **icon**: 04n
-#### Main wind info
-**speed**: 10.3801056 knots
+#### 🪁 Main wind info
+**speed**: 10 knots
 **deg**: 329 degrees
-**gust**: 17.241860799999998 knots
+**gust**: 17 knots
 
 ## Forecast for 22 of Jul at 01:00
 ### nublado
@@ -412,10 +412,10 @@
 **main**: Clouds
 **description**: nublado
 **icon**: 04n
-#### Main wind info
-**speed**: 7.9503056 knots
+#### 🪁 Main wind info
+**speed**: 8 knots
 **deg**: 336 degrees
-**gust**: 15.161952 knots
+**gust**: 15 knots
 
 ## Forecast for 22 of Jul at 04:00
 ### nublado
@@ -434,8 +434,8 @@
 **main**: Clouds
 **description**: nublado
 **icon**: 04n
-#### Main wind info
-**speed**: 7.814236799999999 knots
+#### 🪁 Main wind info
+**speed**: 8 knots
 **deg**: 330 degrees
-**gust**: 14.8314992 knots
+**gust**: 15 knots
 
