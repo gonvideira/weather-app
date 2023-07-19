@@ -47,9 +47,8 @@ def remove_duplicate_items(_api_data, _key):
     print(f'The sorted JSON data based on the value of the date:\n{cleaned_data}')
     return cleaned_data
 
-# function to write new data in existing json file
-# function to write new data in existing json file
 def write_json(new_data, filename=FN):
+    """function to write new data in existing json file"""
     with open(filename,'r') as file:
         # First we load existing data into a dict.
         file_data = json.load(file)
@@ -71,7 +70,6 @@ def write_json(new_data, filename=FN):
 
 def retrieve_data():
     """function that retrieves original data from API"""
-    # url to fecth new data
     url = f'http://api.openweathermap.org/data/2.5/forecast?lat={LAT}&lon={LON}&exclude=hourly,daily&cnt={COUNT}&lang=pt&units=metric&appid={API_KEY}'
     response = requests.get(url)
     new_data = response.json()['list']
