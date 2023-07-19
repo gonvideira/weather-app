@@ -1,15 +1,17 @@
 """
 Python file for conducting tests on weather app.
-
 Conversion to pdf or other file types will be made with PANDOC at github actions!
 """
 
 import json
+from datetime import datetime as dt
+from datetime import timezone as tz
+import pytz
 
 # # input variables
 FN = 'output/weather-output.json'
 OUTPUT = 'output/README.md'
-TITLE = "WEATHER DATA FOR COSTA DA CAPARICA!"
+TITLE = "⛅ WEATHER DATA FOR COSTA DA CAPARICA!"
 
 class ConvertJson():
     """Class converting json"""
@@ -18,7 +20,6 @@ class ConvertJson():
         self.fp_filename = json_fp
         self.h1_heading = h1_heading
         self.jdata = self.get_json()
-        # print(f'JSON data: {self.jdata}')
         self.mddata = self.format_json_to_md()
 
     def get_json(self):
@@ -38,7 +39,8 @@ class ConvertJson():
         text = f'# {self.h1_heading}\n'
         data_list = self.jdata
         for dct in data_list:
-            text += f'## {dct["dt_txt"]}\n'
+            localized_date = localize_date(dct["dt_txt"])
+            text += f'## Forecast for {localized_date}\n'
             text += f'### {dct["weather"][0]["description"]}\n'
             text += '#### Main data info\n'
             print(dct['main'])
@@ -50,10 +52,10 @@ class ConvertJson():
             text += '#### Main wind info\n'
             for content_header, content_data in dct['wind'].items():
                 if content_header == 'deg':
-                    text += f'**{content_header}**: {content_data}\n'
+                    text += f'**{content_header}**: {content_data} degrees\n'
                 else:
                     converted_data = convert_knots(content_data)
-                    text += f'**{content_header}**: {converted_data}\n'
+                    text += f'**{content_header}**: {converted_data} knots\n'
             text += '\n'
         return text
 
@@ -67,6 +69,16 @@ def convert_knots(wind_value):
     """ Function to convert wind in m/s into knots """
     wind_value *= 1.94384
     return wind_value
+
+def localize_date(utc_date):
+    """Function to localize date"""
+    source_date = dt.strptime(utc_date, '%Y-%m-%d %H:%M:%S')
+    source_timezone = pytz.timezone('UTC')
+    source_date_with_timezone = source_timezone.localize(source_date)
+    target_time_zone = pytz.timezone('Europe/Lisbon')
+    target_date_with_timezone = source_date_with_timezone.astimezone(target_time_zone)
+    target_date_str = target_date_with_timezone.strftime('%d of %b at %H:%M')
+    return target_date_str
 
 def treat_data():
     """ Main function that runs on main """
