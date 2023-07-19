@@ -6,9 +6,9 @@ This file is hard wired to Costa da Caparica.
 import json
 from datetime import datetime as dt
 from datetime import timezone as tz
+import pytz
 import os
 import requests
-import pytz
 
 # Constant variables
 API_KEY = os.environ['WEATHER_MAP_API']
@@ -47,8 +47,6 @@ def write_json(new_data, filename=FN):
     with open(filename,'r') as file:
         # First we load existing data into a dict.
         file_data = json.load(file)
-        # print('File data: ')
-        # print(file_data)
         # Join new_data with file_data
         for data in new_data:
             file_data.append(data)
