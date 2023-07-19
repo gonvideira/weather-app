@@ -1,27 +1,5 @@
-# WEATHER DATA FOR COSTA DA CAPARICA!
-## 2023-07-19 15:00:00
-### céu pouco nublado
-#### Main data info
-**temp**: 24.69
-**feels_like**: 24.7
-**temp_min**: 24.69
-**temp_max**: 25.84
-**pressure**: 1019
-**sea_level**: 1019
-**grnd_level**: 1018
-**humidity**: 57
-**temp_kf**: -1.15
-#### Main weather info
-**id**: 801
-**main**: Clouds
-**description**: céu pouco nublado
-**icon**: 02d
-#### Main wind info
-**speed**: 15.6090352
-**deg**: 323
-**gust**: 13.218112
-
-## 2023-07-19 18:00:00
+# ⛅ WEATHER DATA FOR COSTA DA CAPARICA!
+## Forecast for 19 of Jul at 19:00
 ### céu limpo
 #### Main data info
 **temp**: 23.49
@@ -39,11 +17,11 @@
 **description**: céu limpo
 **icon**: 01d
 #### Main wind info
-**speed**: 16.2116256
-**deg**: 334
-**gust**: 19.9632368
+**speed**: 16.2116256 knots
+**deg**: 334 degrees
+**gust**: 19.9632368 knots
 
-## 2023-07-19 21:00:00
+## Forecast for 19 of Jul at 22:00
 ### céu limpo
 #### Main data info
 **temp**: 19.48
@@ -61,11 +39,11 @@
 **description**: céu limpo
 **icon**: 01n
 #### Main wind info
-**speed**: 13.6846336
-**deg**: 339
-**gust**: 24.2591232
+**speed**: 13.6846336 knots
+**deg**: 339 degrees
+**gust**: 24.2591232 knots
 
-## 2023-07-20 00:00:00
+## Forecast for 20 of Jul at 01:00
 ### céu limpo
 #### Main data info
 **temp**: 18.51
@@ -83,11 +61,11 @@
 **description**: céu limpo
 **icon**: 01n
 #### Main wind info
-**speed**: 10.8660656
-**deg**: 342
-**gust**: 20.4297584
+**speed**: 10.8660656 knots
+**deg**: 342 degrees
+**gust**: 20.4297584 knots
 
-## 2023-07-20 03:00:00
+## Forecast for 20 of Jul at 04:00
 ### céu limpo
 #### Main data info
 **temp**: 18
@@ -105,11 +83,11 @@
 **description**: céu limpo
 **icon**: 01n
 #### Main wind info
-**speed**: 10.7494352
-**deg**: 340
-**gust**: 20.7796496
+**speed**: 10.7494352 knots
+**deg**: 340 degrees
+**gust**: 20.7796496 knots
 
-## 2023-07-20 06:00:00
+## Forecast for 20 of Jul at 07:00
 ### céu limpo
 #### Main data info
 **temp**: 18.04
@@ -127,11 +105,11 @@
 **description**: céu limpo
 **icon**: 01d
 #### Main wind info
-**speed**: 10.4772976
-**deg**: 342
-**gust**: 21.207294400000002
+**speed**: 10.4772976 knots
+**deg**: 342 degrees
+**gust**: 21.207294400000002 knots
 
-## 2023-07-20 09:00:00
+## Forecast for 20 of Jul at 10:00
 ### céu limpo
 #### Main data info
 **temp**: 21.44
@@ -149,11 +127,11 @@
 **description**: céu limpo
 **icon**: 01d
 #### Main wind info
-**speed**: 12.6543984
-**deg**: 333
-**gust**: 17.4556832
+**speed**: 12.6543984 knots
+**deg**: 333 degrees
+**gust**: 17.4556832 knots
 
-## 2023-07-20 12:00:00
+## Forecast for 20 of Jul at 13:00
 ### céu limpo
 #### Main data info
 **temp**: 23.28
@@ -171,11 +149,11 @@
 **description**: céu limpo
 **icon**: 01d
 #### Main wind info
-**speed**: 15.3174592
-**deg**: 317
-**gust**: 16.8725312
+**speed**: 15.3174592 knots
+**deg**: 317 degrees
+**gust**: 16.8725312 knots
 
-## 2023-07-20 15:00:00
+## Forecast for 20 of Jul at 16:00
 ### céu limpo
 #### Main data info
 **temp**: 23.21
@@ -193,11 +171,11 @@
 **description**: céu limpo
 **icon**: 01d
 #### Main wind info
-**speed**: 16.2505024
-**deg**: 318
-**gust**: 18.5442336
+**speed**: 16.2505024 knots
+**deg**: 318 degrees
+**gust**: 18.5442336 knots
 
-## 2023-07-20 18:00:00
+## Forecast for 20 of Jul at 19:00
 ### céu limpo
 #### Main data info
 **temp**: 21.48
@@ -215,11 +193,11 @@
 **description**: céu limpo
 **icon**: 01d
 #### Main wind info
-**speed**: 15.278582400000001
-**deg**: 324
-**gust**: 20.040990400000002
+**speed**: 15.278582400000001 knots
+**deg**: 324 degrees
+**gust**: 20.040990400000002 knots
 
-## 2023-07-20 21:00:00
+## Forecast for 20 of Jul at 22:00
 ### céu limpo
 #### Main data info
 **temp**: 19.1
@@ -237,11 +215,11 @@
 **description**: céu limpo
 **icon**: 01n
 #### Main wind info
-**speed**: 11.624163200000002
-**deg**: 334
-**gust**: 20.5658272
+**speed**: 11.624163200000002 knots
+**deg**: 334 degrees
+**gust**: 20.5658272 knots
 
-## 2023-07-21 00:00:00
+## Forecast for 21 of Jul at 01:00
 ### céu limpo
 #### Main data info
 **temp**: 18.54
@@ -259,11 +237,11 @@
 **description**: céu limpo
 **icon**: 01n
 #### Main wind info
-**speed**: 9.23324
-**deg**: 330
-**gust**: 17.8250128
+**speed**: 9.23324 knots
+**deg**: 330 degrees
+**gust**: 17.8250128 knots
 
-## 2023-07-21 03:00:00
+## Forecast for 21 of Jul at 04:00
 ### céu limpo
 #### Main data info
 **temp**: 18.08
@@ -281,11 +259,11 @@
 **description**: céu limpo
 **icon**: 01n
 #### Main wind info
-**speed**: 7.580976
-**deg**: 321
-**gust**: 15.8228576
+**speed**: 7.580976 knots
+**deg**: 321 degrees
+**gust**: 15.8228576 knots
 
-## 2023-07-21 06:00:00
+## Forecast for 21 of Jul at 07:00
 ### céu limpo
 #### Main data info
 **temp**: 18.17
@@ -303,11 +281,11 @@
 **description**: céu limpo
 **icon**: 01d
 #### Main wind info
-**speed**: 6.511864
-**deg**: 316
-**gust**: 12.518329600000001
+**speed**: 6.511864 knots
+**deg**: 316 degrees
+**gust**: 12.518329600000001 knots
 
-## 2023-07-21 09:00:00
+## Forecast for 21 of Jul at 10:00
 ### céu pouco nublado
 #### Main data info
 **temp**: 20.71
@@ -325,11 +303,11 @@
 **description**: céu pouco nublado
 **icon**: 02d
 #### Main wind info
-**speed**: 11.3325872
-**deg**: 311
-**gust**: 13.8595792
+**speed**: 11.3325872 knots
+**deg**: 311 degrees
+**gust**: 13.8595792 knots
 
-## 2023-07-21 12:00:00
+## Forecast for 21 of Jul at 13:00
 ### céu pouco nublado
 #### Main data info
 **temp**: 22.23
@@ -347,11 +325,11 @@
 **description**: céu pouco nublado
 **icon**: 02d
 #### Main wind info
-**speed**: 13.023728
-**deg**: 301
-**gust**: 13.801264
+**speed**: 13.023728 knots
+**deg**: 301 degrees
+**gust**: 13.801264 knots
 
-## 2023-07-21 15:00:00
+## Forecast for 21 of Jul at 16:00
 ### céu limpo
 #### Main data info
 **temp**: 22.23
@@ -369,11 +347,11 @@
 **description**: céu limpo
 **icon**: 01d
 #### Main wind info
-**speed**: 14.773183999999999
-**deg**: 307
-**gust**: 17.300176
+**speed**: 14.773183999999999 knots
+**deg**: 307 degrees
+**gust**: 17.300176 knots
 
-## 2023-07-21 18:00:00
+## Forecast for 21 of Jul at 19:00
 ### céu limpo
 #### Main data info
 **temp**: 21.07
@@ -391,11 +369,11 @@
 **description**: céu limpo
 **icon**: 01d
 #### Main wind info
-**speed**: 13.4513728
-**deg**: 314
-**gust**: 17.300176
+**speed**: 13.4513728 knots
+**deg**: 314 degrees
+**gust**: 17.300176 knots
 
-## 2023-07-21 21:00:00
+## Forecast for 21 of Jul at 22:00
 ### nuvens quebradas
 #### Main data info
 **temp**: 19.04
@@ -413,11 +391,11 @@
 **description**: nuvens quebradas
 **icon**: 04n
 #### Main wind info
-**speed**: 10.3801056
-**deg**: 329
-**gust**: 17.241860799999998
+**speed**: 10.3801056 knots
+**deg**: 329 degrees
+**gust**: 17.241860799999998 knots
 
-## 2023-07-22 00:00:00
+## Forecast for 22 of Jul at 01:00
 ### nublado
 #### Main data info
 **temp**: 18.24
@@ -435,7 +413,29 @@
 **description**: nublado
 **icon**: 04n
 #### Main wind info
-**speed**: 7.9503056
-**deg**: 336
-**gust**: 15.161952
+**speed**: 7.9503056 knots
+**deg**: 336 degrees
+**gust**: 15.161952 knots
+
+## Forecast for 22 of Jul at 04:00
+### nublado
+#### Main data info
+**temp**: 17.83
+**feels_like**: 18.04
+**temp_min**: 17.83
+**temp_max**: 17.83
+**pressure**: 1017
+**sea_level**: 1017
+**grnd_level**: 1017
+**humidity**: 91
+**temp_kf**: 0
+#### Main weather info
+**id**: 804
+**main**: Clouds
+**description**: nublado
+**icon**: 04n
+#### Main wind info
+**speed**: 7.814236799999999 knots
+**deg**: 330 degrees
+**gust**: 14.8314992 knots
 
