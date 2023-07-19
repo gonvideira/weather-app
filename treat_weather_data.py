@@ -49,7 +49,7 @@ class ConvertJson():
             text += '#### Main weather info\n'
             for content_header, content_data in dct['weather'][0].items():
                 text += f'**{content_header}**: {content_data}\n'
-            text += '#### Main wind info\n'
+            text += '#### 🪁 Main wind info\n'
             for content_header, content_data in dct['wind'].items():
                 if content_header == 'deg':
                     text += f'**{content_header}**: {content_data} degrees\n'
@@ -68,7 +68,8 @@ class ConvertJson():
 def convert_knots(wind_value):
     """ Function to convert wind in m/s into knots """
     wind_value *= 1.94384
-    return wind_value
+    converted_value = round(wind_value)
+    return converted_value
 
 def localize_date(utc_date):
     """Function to localize date"""
