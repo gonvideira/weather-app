@@ -1,257 +1,5 @@
 [
       {
-            "dt": 1689789600,
-            "main": {
-                  "temp": 23.49,
-                  "feels_like": 23.38,
-                  "temp_min": 23.17,
-                  "temp_max": 23.49,
-                  "pressure": 1018,
-                  "sea_level": 1018,
-                  "grnd_level": 1018,
-                  "humidity": 57,
-                  "temp_kf": 0.32
-            },
-            "weather": [
-                  {
-                        "id": 800,
-                        "main": "Clear",
-                        "description": "c\u00e9u limpo",
-                        "icon": "01d"
-                  }
-            ],
-            "clouds": {
-                  "all": 7
-            },
-            "wind": {
-                  "speed": 8.34,
-                  "deg": 334,
-                  "gust": 10.27
-            },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                  "pod": "d"
-            },
-            "dt_txt": "2023-07-19 18:00:00"
-      },
-      {
-            "dt": 1689800400,
-            "main": {
-                  "temp": 19.48,
-                  "feels_like": 19.57,
-                  "temp_min": 19.48,
-                  "temp_max": 19.48,
-                  "pressure": 1018,
-                  "sea_level": 1018,
-                  "grnd_level": 1018,
-                  "humidity": 80,
-                  "temp_kf": 0
-            },
-            "weather": [
-                  {
-                        "id": 800,
-                        "main": "Clear",
-                        "description": "c\u00e9u limpo",
-                        "icon": "01n"
-                  }
-            ],
-            "clouds": {
-                  "all": 0
-            },
-            "wind": {
-                  "speed": 7.04,
-                  "deg": 339,
-                  "gust": 12.48
-            },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                  "pod": "n"
-            },
-            "dt_txt": "2023-07-19 21:00:00"
-      },
-      {
-            "dt": 1689811200,
-            "main": {
-                  "temp": 18.51,
-                  "feels_like": 18.64,
-                  "temp_min": 18.51,
-                  "temp_max": 18.51,
-                  "pressure": 1019,
-                  "sea_level": 1019,
-                  "grnd_level": 1019,
-                  "humidity": 85,
-                  "temp_kf": 0
-            },
-            "weather": [
-                  {
-                        "id": 800,
-                        "main": "Clear",
-                        "description": "c\u00e9u limpo",
-                        "icon": "01n"
-                  }
-            ],
-            "clouds": {
-                  "all": 0
-            },
-            "wind": {
-                  "speed": 5.59,
-                  "deg": 342,
-                  "gust": 10.51
-            },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                  "pod": "n"
-            },
-            "dt_txt": "2023-07-20 00:00:00"
-      },
-      {
-            "dt": 1689822000,
-            "main": {
-                  "temp": 18,
-                  "feels_like": 18.15,
-                  "temp_min": 18,
-                  "temp_max": 18,
-                  "pressure": 1017,
-                  "sea_level": 1017,
-                  "grnd_level": 1017,
-                  "humidity": 88,
-                  "temp_kf": 0
-            },
-            "weather": [
-                  {
-                        "id": 800,
-                        "main": "Clear",
-                        "description": "c\u00e9u limpo",
-                        "icon": "01n"
-                  }
-            ],
-            "clouds": {
-                  "all": 1
-            },
-            "wind": {
-                  "speed": 5.53,
-                  "deg": 340,
-                  "gust": 10.69
-            },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                  "pod": "n"
-            },
-            "dt_txt": "2023-07-20 03:00:00"
-      },
-      {
-            "dt": 1689832800,
-            "main": {
-                  "temp": 18.04,
-                  "feels_like": 18.2,
-                  "temp_min": 18.04,
-                  "temp_max": 18.04,
-                  "pressure": 1018,
-                  "sea_level": 1018,
-                  "grnd_level": 1018,
-                  "humidity": 88,
-                  "temp_kf": 0
-            },
-            "weather": [
-                  {
-                        "id": 800,
-                        "main": "Clear",
-                        "description": "c\u00e9u limpo",
-                        "icon": "01d"
-                  }
-            ],
-            "clouds": {
-                  "all": 2
-            },
-            "wind": {
-                  "speed": 5.39,
-                  "deg": 342,
-                  "gust": 10.91
-            },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                  "pod": "d"
-            },
-            "dt_txt": "2023-07-20 06:00:00"
-      },
-      {
-            "dt": 1689843600,
-            "main": {
-                  "temp": 21.44,
-                  "feels_like": 21.36,
-                  "temp_min": 21.44,
-                  "temp_max": 21.44,
-                  "pressure": 1019,
-                  "sea_level": 1019,
-                  "grnd_level": 1019,
-                  "humidity": 66,
-                  "temp_kf": 0
-            },
-            "weather": [
-                  {
-                        "id": 800,
-                        "main": "Clear",
-                        "description": "c\u00e9u limpo",
-                        "icon": "01d"
-                  }
-            ],
-            "clouds": {
-                  "all": 1
-            },
-            "wind": {
-                  "speed": 6.51,
-                  "deg": 333,
-                  "gust": 8.98
-            },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                  "pod": "d"
-            },
-            "dt_txt": "2023-07-20 09:00:00"
-      },
-      {
-            "dt": 1689854400,
-            "main": {
-                  "temp": 23.28,
-                  "feels_like": 23.23,
-                  "temp_min": 23.28,
-                  "temp_max": 23.28,
-                  "pressure": 1019,
-                  "sea_level": 1019,
-                  "grnd_level": 1019,
-                  "humidity": 60,
-                  "temp_kf": 0
-            },
-            "weather": [
-                  {
-                        "id": 800,
-                        "main": "Clear",
-                        "description": "c\u00e9u limpo",
-                        "icon": "01d"
-                  }
-            ],
-            "clouds": {
-                  "all": 1
-            },
-            "wind": {
-                  "speed": 7.88,
-                  "deg": 317,
-                  "gust": 8.68
-            },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                  "pod": "d"
-            },
-            "dt_txt": "2023-07-20 12:00:00"
-      },
-      {
             "dt": 1689865200,
             "main": {
                   "temp": 23.21,
@@ -718,5 +466,257 @@
                   "pod": "n"
             },
             "dt_txt": "2023-07-22 03:00:00"
+      },
+      {
+            "dt": 1690005600,
+            "main": {
+                  "temp": 17.83,
+                  "feels_like": 18.07,
+                  "temp_min": 17.83,
+                  "temp_max": 17.83,
+                  "pressure": 1017,
+                  "sea_level": 1017,
+                  "grnd_level": 1017,
+                  "humidity": 92,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 800,
+                        "main": "Clear",
+                        "description": "c\u00e9u limpo",
+                        "icon": "01d"
+                  }
+            ],
+            "clouds": {
+                  "all": 8
+            },
+            "wind": {
+                  "speed": 4.11,
+                  "deg": 327,
+                  "gust": 7.99
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                  "pod": "d"
+            },
+            "dt_txt": "2023-07-22 06:00:00"
+      },
+      {
+            "dt": 1690016400,
+            "main": {
+                  "temp": 21.4,
+                  "feels_like": 21.48,
+                  "temp_min": 21.4,
+                  "temp_max": 21.4,
+                  "pressure": 1017,
+                  "sea_level": 1017,
+                  "grnd_level": 1017,
+                  "humidity": 72,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 802,
+                        "main": "Clouds",
+                        "description": "nuvens dispersas",
+                        "icon": "03d"
+                  }
+            ],
+            "clouds": {
+                  "all": 26
+            },
+            "wind": {
+                  "speed": 4.65,
+                  "deg": 333,
+                  "gust": 6.03
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                  "pod": "d"
+            },
+            "dt_txt": "2023-07-22 09:00:00"
+      },
+      {
+            "dt": 1690027200,
+            "main": {
+                  "temp": 24.77,
+                  "feels_like": 24.79,
+                  "temp_min": 24.77,
+                  "temp_max": 24.77,
+                  "pressure": 1017,
+                  "sea_level": 1017,
+                  "grnd_level": 1017,
+                  "humidity": 57,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 802,
+                        "main": "Clouds",
+                        "description": "nuvens dispersas",
+                        "icon": "03d"
+                  }
+            ],
+            "clouds": {
+                  "all": 34
+            },
+            "wind": {
+                  "speed": 6.27,
+                  "deg": 321,
+                  "gust": 6.11
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                  "pod": "d"
+            },
+            "dt_txt": "2023-07-22 12:00:00"
+      },
+      {
+            "dt": 1690038000,
+            "main": {
+                  "temp": 24.91,
+                  "feels_like": 24.92,
+                  "temp_min": 24.91,
+                  "temp_max": 24.91,
+                  "pressure": 1016,
+                  "sea_level": 1016,
+                  "grnd_level": 1016,
+                  "humidity": 56,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 802,
+                        "main": "Clouds",
+                        "description": "nuvens dispersas",
+                        "icon": "03d"
+                  }
+            ],
+            "clouds": {
+                  "all": 29
+            },
+            "wind": {
+                  "speed": 9.57,
+                  "deg": 324,
+                  "gust": 8.5
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                  "pod": "d"
+            },
+            "dt_txt": "2023-07-22 15:00:00"
+      },
+      {
+            "dt": 1690048800,
+            "main": {
+                  "temp": 22.28,
+                  "feels_like": 22.18,
+                  "temp_min": 22.28,
+                  "temp_max": 22.28,
+                  "pressure": 1016,
+                  "sea_level": 1016,
+                  "grnd_level": 1016,
+                  "humidity": 62,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 802,
+                        "main": "Clouds",
+                        "description": "nuvens dispersas",
+                        "icon": "03d"
+                  }
+            ],
+            "clouds": {
+                  "all": 30
+            },
+            "wind": {
+                  "speed": 9.48,
+                  "deg": 335,
+                  "gust": 12.7
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                  "pod": "d"
+            },
+            "dt_txt": "2023-07-22 18:00:00"
+      },
+      {
+            "dt": 1690059600,
+            "main": {
+                  "temp": 18.97,
+                  "feels_like": 18.96,
+                  "temp_min": 18.97,
+                  "temp_max": 18.97,
+                  "pressure": 1017,
+                  "sea_level": 1017,
+                  "grnd_level": 1017,
+                  "humidity": 78,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 800,
+                        "main": "Clear",
+                        "description": "c\u00e9u limpo",
+                        "icon": "01n"
+                  }
+            ],
+            "clouds": {
+                  "all": 0
+            },
+            "wind": {
+                  "speed": 7.29,
+                  "deg": 345,
+                  "gust": 13.42
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                  "pod": "n"
+            },
+            "dt_txt": "2023-07-22 21:00:00"
+      },
+      {
+            "dt": 1690070400,
+            "main": {
+                  "temp": 17.86,
+                  "feels_like": 17.82,
+                  "temp_min": 17.86,
+                  "temp_max": 17.86,
+                  "pressure": 1017,
+                  "sea_level": 1017,
+                  "grnd_level": 1017,
+                  "humidity": 81,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 800,
+                        "main": "Clear",
+                        "description": "c\u00e9u limpo",
+                        "icon": "01n"
+                  }
+            ],
+            "clouds": {
+                  "all": 0
+            },
+            "wind": {
+                  "speed": 5.73,
+                  "deg": 348,
+                  "gust": 11.18
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                  "pod": "n"
+            },
+            "dt_txt": "2023-07-23 00:00:00"
       }
 ]

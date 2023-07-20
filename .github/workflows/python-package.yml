@@ -1,6 +1,10 @@
 name: Python package
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '6 */3 * * *'
 
 jobs:
   retrieve:
@@ -25,16 +29,13 @@ jobs:
           # make sure all needed libraries are in requirements file
           pip install -r .github/workflows/requirements.txt
       - name: Show installed packages
-        run: |
-          pip list
+        run: pip list
       - name: Retrieve data with Python
         env:
           WEATHER_MAP_API: ${{ secrets.WEATHER_MAP_API }}
-        run: |
-          python "get_weather_data.py"
+        run: python "get_weather_data.py"
       - name: Treat data with Python
-        run: |
-          python "treat_weather_data.py"
+        run: python "treat_weather_data.py"
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
