@@ -1,7 +1,8 @@
 # ⛅ COSTA DA CAPARICA!
-Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
+Forecast date 20 of Jul at 15:10
+## Forecast for 20 of Jul at 16:00
 ### céu limpo
-#### Main data info
+#### ℹ️ Main info
 **temp**: 23.21
 **feels_like**: 23.18
 **temp_min**: 23.21
@@ -18,7 +19,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 20 of Jul at 19:00
 ### céu limpo
-#### Main data info
+#### ℹ️ Main info
 **temp**: 21.48
 **feels_like**: 21.41
 **temp_min**: 21.48
@@ -35,7 +36,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 20 of Jul at 22:00
 ### céu limpo
-#### Main data info
+#### ℹ️ Main info
 **temp**: 19.1
 **feels_like**: 19.23
 **temp_min**: 19.1
@@ -52,7 +53,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 21 of Jul at 01:00
 ### céu limpo
-#### Main data info
+#### ℹ️ Main info
 **temp**: 18.54
 **feels_like**: 18.75
 **temp_min**: 18.54
@@ -69,7 +70,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 21 of Jul at 04:00
 ### céu limpo
-#### Main data info
+#### ℹ️ Main info
 **temp**: 18.08
 **feels_like**: 18.32
 **temp_min**: 18.08
@@ -86,7 +87,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 21 of Jul at 07:00
 ### céu limpo
-#### Main data info
+#### ℹ️ Main info
 **temp**: 18.17
 **feels_like**: 18.44
 **temp_min**: 18.17
@@ -103,7 +104,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 21 of Jul at 10:00
 ### céu pouco nublado
-#### Main data info
+#### ℹ️ Main info
 **temp**: 20.71
 **feels_like**: 20.85
 **temp_min**: 20.71
@@ -120,7 +121,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 21 of Jul at 13:00
 ### céu pouco nublado
-#### Main data info
+#### ℹ️ Main info
 **temp**: 22.23
 **feels_like**: 22.13
 **temp_min**: 22.23
@@ -137,7 +138,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 21 of Jul at 16:00
 ### céu limpo
-#### Main data info
+#### ℹ️ Main info
 **temp**: 22.23
 **feels_like**: 22.21
 **temp_min**: 22.23
@@ -154,7 +155,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 21 of Jul at 19:00
 ### céu limpo
-#### Main data info
+#### ℹ️ Main info
 **temp**: 21.07
 **feels_like**: 21.03
 **temp_min**: 21.07
@@ -171,7 +172,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 21 of Jul at 22:00
 ### nuvens quebradas
-#### Main data info
+#### ℹ️ Main info
 **temp**: 19.04
 **feels_like**: 19.14
 **temp_min**: 19.04
@@ -188,7 +189,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 22 of Jul at 01:00
 ### nublado
-#### Main data info
+#### ℹ️ Main info
 **temp**: 18.24
 **feels_like**: 18.39
 **temp_min**: 18.24
@@ -205,7 +206,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 22 of Jul at 04:00
 ### nublado
-#### Main data info
+#### ℹ️ Main info
 **temp**: 17.83
 **feels_like**: 18.04
 **temp_min**: 17.83
@@ -222,7 +223,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 22 of Jul at 07:00
 ### céu limpo
-#### Main data info
+#### ℹ️ Main info
 **temp**: 17.83
 **feels_like**: 18.07
 **temp_min**: 17.83
@@ -239,7 +240,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 22 of Jul at 10:00
 ### nuvens dispersas
-#### Main data info
+#### ℹ️ Main info
 **temp**: 21.4
 **feels_like**: 21.48
 **temp_min**: 21.4
@@ -256,7 +257,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 22 of Jul at 13:00
 ### nuvens dispersas
-#### Main data info
+#### ℹ️ Main info
 **temp**: 24.77
 **feels_like**: 24.79
 **temp_min**: 24.77
@@ -273,7 +274,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 22 of Jul at 16:00
 ### nuvens dispersas
-#### Main data info
+#### ℹ️ Main info
 **temp**: 24.91
 **feels_like**: 24.92
 **temp_min**: 24.91
@@ -290,7 +291,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 22 of Jul at 19:00
 ### nuvens dispersas
-#### Main data info
+#### ℹ️ Main info
 **temp**: 22.28
 **feels_like**: 22.18
 **temp_min**: 22.28
@@ -307,7 +308,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 22 of Jul at 22:00
 ### céu limpo
-#### Main data info
+#### ℹ️ Main info
 **temp**: 18.97
 **feels_like**: 18.96
 **temp_min**: 18.97
@@ -324,7 +325,7 @@ Forecast date 20 of Jul at 15:07## Forecast for 20 of Jul at 16:00
 
 ## Forecast for 23 of Jul at 01:00
 ### céu limpo
-#### Main data info
+#### ℹ️ Main info
 **temp**: 17.86
 **feels_like**: 17.82
 **temp_min**: 17.86
