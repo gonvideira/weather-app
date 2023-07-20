@@ -1,5 +1,5 @@
 # ⛅ COSTA DA CAPARICA!
-Forecast date 20 of Jul at 15:10
+Forecast date 20 of Jul at 15:11
 ## Forecast for 20 of Jul at 16:00
 ### céu limpo
 #### ℹ️ Main info
@@ -12,7 +12,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1018
 **humidity**: 61
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 16 knots
 **deg**: 318 degrees
 **gust**: 19 knots
@@ -29,7 +29,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1018
 **humidity**: 66
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 15 knots
 **deg**: 324 degrees
 **gust**: 20 knots
@@ -46,7 +46,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1019
 **humidity**: 83
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 12 knots
 **deg**: 334 degrees
 **gust**: 21 knots
@@ -63,7 +63,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1019
 **humidity**: 88
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 9 knots
 **deg**: 330 degrees
 **gust**: 18 knots
@@ -80,7 +80,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1018
 **humidity**: 91
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 8 knots
 **deg**: 321 degrees
 **gust**: 16 knots
@@ -97,7 +97,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1018
 **humidity**: 92
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 7 knots
 **deg**: 316 degrees
 **gust**: 13 knots
@@ -114,7 +114,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1018
 **humidity**: 77
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 11 knots
 **deg**: 311 degrees
 **gust**: 14 knots
@@ -131,7 +131,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1018
 **humidity**: 62
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 13 knots
 **deg**: 301 degrees
 **gust**: 14 knots
@@ -148,7 +148,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1018
 **humidity**: 65
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 15 knots
 **deg**: 307 degrees
 **gust**: 17 knots
@@ -165,7 +165,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1017
 **humidity**: 69
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 13 knots
 **deg**: 314 degrees
 **gust**: 17 knots
@@ -182,7 +182,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1018
 **humidity**: 82
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 10 knots
 **deg**: 329 degrees
 **gust**: 17 knots
@@ -199,7 +199,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1018
 **humidity**: 87
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 8 knots
 **deg**: 336 degrees
 **gust**: 15 knots
@@ -216,7 +216,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1017
 **humidity**: 91
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 8 knots
 **deg**: 330 degrees
 **gust**: 15 knots
@@ -233,7 +233,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1017
 **humidity**: 92
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 8 knots
 **deg**: 327 degrees
 **gust**: 16 knots
@@ -250,7 +250,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1017
 **humidity**: 72
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 9 knots
 **deg**: 333 degrees
 **gust**: 12 knots
@@ -267,7 +267,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1017
 **humidity**: 57
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 12 knots
 **deg**: 321 degrees
 **gust**: 12 knots
@@ -284,7 +284,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1016
 **humidity**: 56
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 19 knots
 **deg**: 324 degrees
 **gust**: 17 knots
@@ -301,7 +301,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1016
 **humidity**: 62
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 18 knots
 **deg**: 335 degrees
 **gust**: 25 knots
@@ -318,7 +318,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1017
 **humidity**: 78
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 14 knots
 **deg**: 345 degrees
 **gust**: 26 knots
@@ -335,7 +335,7 @@ Forecast date 20 of Jul at 15:10
 **grnd_level**: 1017
 **humidity**: 81
 **temp_kf**: 0
-#### 🪁 Main wind info
+#### 🪁 Wind info
 **speed**: 11 knots
 **deg**: 348 degrees
 **gust**: 22 knots
