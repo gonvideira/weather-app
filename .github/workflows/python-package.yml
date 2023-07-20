@@ -25,16 +25,13 @@ jobs:
           # make sure all needed libraries are in requirements file
           pip install -r .github/workflows/requirements.txt
       - name: Show installed packages
-        run: |
-          pip list
+        run: pip list
       - name: Retrieve data with Python
         env:
           WEATHER_MAP_API: ${{ secrets.WEATHER_MAP_API }}
-        run: |
-          python "get_weather_data.py"
+        run: python "get_weather_data.py"
       - name: Treat data with Python
-        run: |
-          python "treat_weather_data.py"
+        run: python "treat_weather_data.py"
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
