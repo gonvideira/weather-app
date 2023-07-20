@@ -59,7 +59,7 @@ class ConvertJson():
             print(dct['main'])
             for content_header, content_data in dct['main'].items():
                 text += f'**{content_header}**: {content_data}\n'
-            text += '#### 🪁 Main wind info\n'
+            text += '#### 🪁 Wind info\n'
             for content_header, content_data in dct['wind'].items():
                 if content_header == 'deg':
                     text += f'**{content_header}**: {content_data} degrees\n'
