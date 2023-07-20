@@ -5,13 +5,26 @@ Conversion to pdf or other file types will be made with PANDOC at github actions
 
 import json
 from datetime import datetime as dt
-from datetime import timezone as tz
 import pytz
 
-# # input variables
+## input variables
 FN = 'output/weather-output.json'
 OUTPUT = 'output/README.md'
-TITLE = "⛅ WEATHER DATA FOR COSTA DA CAPARICA!"
+TITLE = "⛅ COSTA DA CAPARICA!"
+
+def forecast_date():
+    """Function to get forecast date"""
+    date_now = dt.now()
+    source_date = dt.strptime(date_now, '%Y-%m-%d %H:%M:%S')
+    source_timezone = pytz.timezone('UTC')
+    source_date_with_timezone = source_timezone.localize(source_date)
+    target_time_zone = pytz.timezone('Europe/Lisbon')
+    target_date_with_timezone = source_date_with_timezone.astimezone(target_time_zone)
+    target_date_str = target_date_with_timezone.strftime('%d of %b at %H:%M')
+    return target_date_str
+
+date_now = forecast_date()
+print(f'Forecasted at {date_now}')
 
 class ConvertJson():
     """Class converting json"""
@@ -37,6 +50,7 @@ class ConvertJson():
     def format_json_to_md(self):
         """Function to transform json data to md"""
         text = f'# {self.h1_heading}\n'
+        text += f'Forecast date {date_now}'
         data_list = self.jdata
         for dct in data_list:
             localized_date = localize_date(dct["dt_txt"])
@@ -45,9 +59,6 @@ class ConvertJson():
             text += '#### Main data info\n'
             print(dct['main'])
             for content_header, content_data in dct['main'].items():
-                text += f'**{content_header}**: {content_data}\n'
-            text += '#### Main weather info\n'
-            for content_header, content_data in dct['weather'][0].items():
                 text += f'**{content_header}**: {content_data}\n'
             text += '#### 🪁 Main wind info\n'
             for content_header, content_data in dct['wind'].items():
