@@ -49,13 +49,13 @@ class ConvertJson():
     def format_json_to_md(self):
         """Function to transform json data to md"""
         text = f'# {self.h1_heading}\n'
-        text += f'Forecast date {date_now}'
+        text += f'Forecast date {date_now}\n'
         data_list = self.jdata
         for dct in data_list:
             localized_date = localize_date(dct["dt_txt"])
             text += f'## Forecast for {localized_date}\n'
             text += f'### {dct["weather"][0]["description"]}\n'
-            text += '#### Main data info\n'
+            text += '#### ℹ️ Main info\n'
             print(dct['main'])
             for content_header, content_data in dct['main'].items():
                 text += f'**{content_header}**: {content_data}\n'
