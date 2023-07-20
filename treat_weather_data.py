@@ -14,8 +14,7 @@ TITLE = "⛅ COSTA DA CAPARICA!"
 
 def forecast_date():
     """Function to get forecast date"""
-    date_now = dt.now()
-    source_date = dt.strptime(date_now, '%Y-%m-%d %H:%M:%S')
+    source_date = dt.now()
     source_timezone = pytz.timezone('UTC')
     source_date_with_timezone = source_timezone.localize(source_date)
     target_time_zone = pytz.timezone('Europe/Lisbon')
