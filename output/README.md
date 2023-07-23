@@ -1,22 +1,5 @@
 # ⛅ COSTA DA CAPARICA!
-```Forecast date 23 of Jul at 03:31```
-
-## Forecast for 23 of Jul at 04:00
-### céu limpo
-#### ℹ️ Main info
-**temp**: 17.29
-**feels_like**: 17.24
-**temp_min**: 17.29
-**temp_max**: 17.29
-**pressure**: 1016
-**sea_level**: 1016
-**grnd_level**: 1016
-**humidity**: 83
-**temp_kf**: 0
-#### 🪁 Wind info
-**speed**: 10 knots
-**deg**: 349 degrees
-**gust**: 21 knots
+```Forecast date 23 of Jul at 04:23```
 
 ## Forecast for 23 of Jul at 07:00
 ### céu limpo
@@ -340,4 +323,21 @@
 **speed**: 16 knots
 **deg**: 330 degrees
 **gust**: 18 knots
+
+## Forecast for 25 of Jul at 16:00
+### céu limpo
+#### ℹ️ Main info
+**temp**: 23.87
+**feels_like**: 23.51
+**temp_min**: 23.87
+**temp_max**: 23.87
+**pressure**: 1017
+**sea_level**: 1017
+**grnd_level**: 1017
+**humidity**: 46
+**temp_kf**: 0
+#### 🪁 Wind info
+**speed**: 17 knots
+**deg**: 327 degrees
+**gust**: 19 knots
 
