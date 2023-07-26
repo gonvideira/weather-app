@@ -10,14 +10,14 @@ import pytz
 ## input variables
 FN = 'output/weather-output.json'
 OUTPUT = 'output/README.md'
-TITLE = "⛅ COSTA DA CAPARICA!"
+TITLE = "⛅ ISLANTILLA!"
 
 def forecast_date():
     """Function to get forecast date"""
     source_date = dt.now()
     source_timezone = pytz.timezone('UTC')
     source_date_with_timezone = source_timezone.localize(source_date)
-    target_time_zone = pytz.timezone('Europe/Lisbon')
+    target_time_zone = pytz.timezone('Europe/Madrid') # change according to the place of the forecast
     target_date_with_timezone = source_date_with_timezone.astimezone(target_time_zone)
     target_date_str = target_date_with_timezone.strftime('%d of %b at %H:%M')
     return target_date_str
