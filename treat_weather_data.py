@@ -73,7 +73,7 @@ class ConvertJson():
             text += f'<tr><td>Temperature</td><td>{temp_item}º</td></tr>'
             text += f'<tr><td>Feels Like</td><td>{feelslike_item}º</td></tr>'
             text += f'<tr><td>Temperature Max</td><td>{tempmax_item}º</td></tr>'
-            text += f'<tr><td>Pressure</td><td>{pressure_item}</td></tr>'
+            text += f'<tr><td>Pressure</td><td>{pressure_item} hPa</td></tr>'
             text += f'<tr><td>Humidity</td><td>{humidity_item}%</td></tr></table>\n'
             
             text += '#### 🪁 Wind info\n'
