@@ -11,7 +11,7 @@ import pytz
 FN = 'output/weather-output.json'
 OUTPUT = 'output/README.md'
 TITLE = '⛅ ISLANTILLA!'
-ARROW = '<table><tr><th>Company</th><th>Contact</th><th>Country</th></tr><tr><td>Alfreds Futterkiste</td><td>Maria Anders</td><td>Germany</td></tr><tr><td>Centro comercial Moctezuma</td><td><svg viewBox="0 0 350 100"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="0" y1="50" x2="250" y2="50" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" /></svg></td><td>Mexico</td></tr></table>'
+ARROW = '<svg viewBox="0 0 350 100"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="0" y1="50" x2="250" y2="50" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" /></svg>'
 
 def forecast_date():
     """Function to get forecast date"""
@@ -51,7 +51,6 @@ class ConvertJson():
         """Function to transform json data to md"""
         text = f'# {self.h1_heading}\n'
         text += f'```Forecast date {date_now}```\n\n'
-        text += ARROW
         text += '\n\n'
         data_list = self.jdata
         for dct in data_list:
@@ -60,27 +59,31 @@ class ConvertJson():
             temp_item = round(dct['main']['temp'])
             feelslike_item = round(dct['main']['feels_like'])
             tempmax_item = round(dct['main']['temp_max'])
+            pressure_item = dct['main']['pressure']
             humidity_item = dct['main']['humidity']
-            
+            wind_item = round(dct['wind']['speed'])
+            deg_item = dct['wind']['deg']
+            gust_item = round(dct['wind']['gust'])
             
             text += f'## Forecast for {localized_date}\n'
             text += f'### {dct["weather"][0]["description"]}\n'
             text += '#### ℹ️ Main info\n'
             
             text += '<table><tr><th>Metric</th><th>Value</th></tr>'
-            text += f'<tr><td>Temperature</td><td>{temp_item}</td></tr>'
-            text += f'<tr><td>Feels Like</td><td>{feelslike_item}</td></tr>'
-            text += f'<tr><td>Temperature Max</td><td>{tempmax_item}</td></tr>'
-            text += f'<tr><td>Humidity</td><td>{humidity_item}</td></tr></table>\n'
+            text += f'<tr><td>Temperature</td><td>{temp_item}º</td></tr>'
+            text += f'<tr><td>Feels Like</td><td>{feelslike_item}º</td></tr>'
+            text += f'<tr><td>Temperature Max</td><td>{tempmax_item}º</td></tr>'
+            text += f'<tr><td>Pressure</td><td>{pressure_item}</td></tr>'
+            text += f'<tr><td>Humidity</td><td>{humidity_item}%</td></tr></table>\n'
             
             text += '#### 🪁 Wind info\n'
-            for content_header, content_data in dct['wind'].items():
-                if content_header == 'deg':
-                    text += f'**{content_header}**: {content_data} degrees\n'
-                else:
-                    converted_data = convert_knots(content_data)
-                    text += f'**{content_header}**: {converted_data} knots\n'
-            text += '\n'
+
+            text += '<table><tr><th>Metric</th><th>Value</th></tr>'
+            text += f'<tr><td>Speed</td><td>{wind_item} kts</td></tr>'
+            text += f'<tr><td>Direction</td><td>{deg_item}º</td></tr>'
+            text += f'<tr><td>Direction</td><td>{ARROW}</td></tr>'
+            text += f'<tr><td>Gust</td><td>{gust_item} kts</td></tr></table>\n'
+
         return text
 
     def convert_dict_to_md(self, output_fn):
