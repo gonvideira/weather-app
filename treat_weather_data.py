@@ -10,7 +10,35 @@ import pytz
 ## input variables
 FN = 'output/weather-output.json'
 OUTPUT = 'output/README.md'
-TITLE = "⛅ ISLANTILLA!"
+TITLE = '⛅ ISLANTILLA!'
+ARROW = '<table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>
+                <svg viewBox="0 0 350 100">
+                    <defs>
+                    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                        refX="0" refY="3.5" orient="auto">
+                        <polygon points="0 0, 10 3.5, 0 7" />
+                    </marker>
+                    </defs>
+                    <line x1="0" y1="50" x2="250" y2="50" stroke="#000" 
+                        stroke-width="8" marker-end="url(#arrowhead)" />
+                </svg>
+            </td>
+            <td>Mexico</td>
+        </tr>
+    </table>'
 
 def forecast_date():
     """Function to get forecast date"""
