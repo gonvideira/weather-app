@@ -55,13 +55,24 @@ class ConvertJson():
         text += '\n\n'
         data_list = self.jdata
         for dct in data_list:
+            
             localized_date = localize_date(dct["dt_txt"])
+            temp_item = round(dct['main']['temp'])
+            feelslike_item = round(dct['main']['feels_like'])
+            tempmax_item = round(dct['main']['temp_max'])
+            humidity_item = dct['main']['humidity']
+            
+            
             text += f'## Forecast for {localized_date}\n'
             text += f'### {dct["weather"][0]["description"]}\n'
             text += '#### ℹ️ Main info\n'
-            print(dct['main'])
-            for content_header, content_data in dct['main'].items():
-                text += f'**{content_header}**: {content_data}\n'
+            
+            text += '<table><tr><th>Metric</th><th>Value</th></tr>'
+            text += f'<tr><td>Temperature</td><td>{temp_item}</td></tr>'
+            text += f'<tr><td>Feels Like</td><td>{feelslike_item}</td></tr>'
+            text += f'<tr><td>Temperature Max</td><td>{tempmax_item}</td></tr>'
+            text += f'<tr><td>Humidity</td><td>{humidity_item}</td></tr></table>\n'
+            
             text += '#### 🪁 Wind info\n'
             for content_header, content_data in dct['wind'].items():
                 if content_header == 'deg':
