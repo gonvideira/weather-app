@@ -64,6 +64,7 @@ class ConvertJson():
             wind_item = round(dct['wind']['speed'])
             deg_item = dct['wind']['deg']
             deg_arrow = (deg_item + 90) % 360
+            svg_arrow = f'<svg viewBox="0 0 350 350"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="0" y1="50" x2="250" y2="50" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" transform="rotate({deg_arrow})" /></svg>'
             gust_item = round(dct['wind']['gust'])
             
             text += f'## Forecast for {localized_date}\n'
@@ -82,7 +83,7 @@ class ConvertJson():
             text += '<table><tr><th>Metric</th><th>Value</th></tr>'
             text += f'<tr><td>Speed</td><td>{wind_item} kts</td></tr>'
             text += f'<tr><td>Direction</td><td>{deg_item}º</td></tr>'
-            text += f'<tr><td>Direction</td><td>{deg_arrow}</td></tr>'
+            text += f'<tr><td>Direction</td><td>{svg_arrow}</td></tr>'
             text += f'<tr><td>Gust</td><td>{gust_item} kts</td></tr></table>\n'
 
         return text
