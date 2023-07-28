@@ -1,22 +1,5 @@
 # ⛅ ISLANTILLA!
-```Forecast date 28 of Jul at 05:22```
-
-## Forecast for 28 of Jul at 07:00
-### céu limpo
-#### ℹ️ Main info
-**temp**: 18.07
-**feels_like**: 18.36
-**temp_min**: 18.07
-**temp_max**: 18.07
-**pressure**: 1015
-**sea_level**: 1015
-**grnd_level**: 1015
-**humidity**: 93
-**temp_kf**: 0
-#### 🪁 Wind info
-**speed**: 6 knots
-**deg**: 340 degrees
-**gust**: 13 knots
+```Forecast date 28 of Jul at 08:29```
 
 ## Forecast for 28 of Jul at 10:00
 ### céu limpo
@@ -340,4 +323,21 @@
 **speed**: 12 knots
 **deg**: 238 degrees
 **gust**: 12 knots
+
+## Forecast for 30 of Jul at 19:00
+### céu limpo
+#### ℹ️ Main info
+**temp**: 31.56
+**feels_like**: 31.2
+**temp_min**: 31.56
+**temp_max**: 31.56
+**pressure**: 1015
+**sea_level**: 1015
+**grnd_level**: 1014
+**humidity**: 37
+**temp_kf**: 0
+#### 🪁 Wind info
+**speed**: 9 knots
+**deg**: 254 degrees
+**gust**: 14 knots
 
