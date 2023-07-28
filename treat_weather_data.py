@@ -10,14 +10,15 @@ import pytz
 ## input variables
 FN = 'output/weather-output.json'
 OUTPUT = 'output/README.md'
-TITLE = "⛅ ISLANTILLA!"
+TITLE = '⛅ ISLANTILLA!'
+ARROW = '<table><tr><th>Company</th><th>Contact</th><th>Country</th></tr><tr><td>Alfreds Futterkiste</td><td>Maria Anders</td><td>Germany</td></tr><tr><td>Centro comercial Moctezuma</td><td><svg viewBox="0 0 350 100"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="0" y1="50" x2="250" y2="50" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" /></svg></td><td>Mexico</td></tr></table>'
 
 def forecast_date():
     """Function to get forecast date"""
     source_date = dt.now()
     source_timezone = pytz.timezone('UTC')
     source_date_with_timezone = source_timezone.localize(source_date)
-    target_time_zone = pytz.timezone('Europe/Madrid') # change according to the place of the forecast
+    target_time_zone = pytz.timezone('Europe/Madrid') # change according to place of the forecast
     target_date_with_timezone = source_date_with_timezone.astimezone(target_time_zone)
     target_date_str = target_date_with_timezone.strftime('%d of %b at %H:%M')
     return target_date_str
@@ -50,6 +51,8 @@ class ConvertJson():
         """Function to transform json data to md"""
         text = f'# {self.h1_heading}\n'
         text += f'```Forecast date {date_now}```\n\n'
+        text += ARROW
+        text += '\n\n'
         data_list = self.jdata
         for dct in data_list:
             localized_date = localize_date(dct["dt_txt"])
