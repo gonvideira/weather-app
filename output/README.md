@@ -1,20 +1,12 @@
 # ⛅ ISLANTILLA!
-```Forecast date 28 of Jul at 12:11```
+```Forecast date 28 of Jul at 12:59```
 
 <table><tr><th>Company</th><th>Contact</th><th>Country</th></tr><tr><td>Alfreds Futterkiste</td><td>Maria Anders</td><td>Germany</td></tr><tr><td>Centro comercial Moctezuma</td><td><svg viewBox="0 0 350 100"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="0" y1="50" x2="250" y2="50" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" /></svg></td><td>Mexico</td></tr></table>
 
 ## Forecast for 28 of Jul at 13:00
 ### nuvens dispersas
 #### ℹ️ Main info
-**temp**: 24.52
-**feels_like**: 24.65
-**temp_min**: 24.52
-**temp_max**: 24.52
-**pressure**: 1016
-**sea_level**: 1016
-**grnd_level**: 1016
-**humidity**: 62
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>25</td></tr><tr><td>Feels Like</td><td>25</td></tr><tr><td>Temperature Max</td><td>25</td></tr><tr><td>Humidity</td><td>62</td></tr></table>
 #### 🪁 Wind info
 **speed**: 13 knots
 **deg**: 307 degrees
@@ -23,15 +15,7 @@
 ## Forecast for 28 of Jul at 16:00
 ### nuvens dispersas
 #### ℹ️ Main info
-**temp**: 24.43
-**feels_like**: 24.57
-**temp_min**: 24.43
-**temp_max**: 24.43
-**pressure**: 1015
-**sea_level**: 1015
-**grnd_level**: 1015
-**humidity**: 63
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>24</td></tr><tr><td>Feels Like</td><td>25</td></tr><tr><td>Temperature Max</td><td>24</td></tr><tr><td>Humidity</td><td>63</td></tr></table>
 #### 🪁 Wind info
 **speed**: 15 knots
 **deg**: 308 degrees
@@ -40,15 +24,7 @@
 ## Forecast for 28 of Jul at 19:00
 ### nuvens dispersas
 #### ℹ️ Main info
-**temp**: 22.71
-**feels_like**: 22.89
-**temp_min**: 22.71
-**temp_max**: 22.71
-**pressure**: 1015
-**sea_level**: 1015
-**grnd_level**: 1015
-**humidity**: 71
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>23</td></tr><tr><td>Feels Like</td><td>23</td></tr><tr><td>Temperature Max</td><td>23</td></tr><tr><td>Humidity</td><td>71</td></tr></table>
 #### 🪁 Wind info
 **speed**: 14 knots
 **deg**: 322 degrees
@@ -57,15 +33,7 @@
 ## Forecast for 28 of Jul at 22:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 20.43
-**feels_like**: 20.77
-**temp_min**: 20.43
-**temp_max**: 20.43
-**pressure**: 1016
-**sea_level**: 1016
-**grnd_level**: 1016
-**humidity**: 86
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>20</td></tr><tr><td>Feels Like</td><td>21</td></tr><tr><td>Temperature Max</td><td>20</td></tr><tr><td>Humidity</td><td>86</td></tr></table>
 #### 🪁 Wind info
 **speed**: 9 knots
 **deg**: 330 degrees
@@ -74,15 +42,7 @@
 ## Forecast for 29 of Jul at 01:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 19.88
-**feels_like**: 20.33
-**temp_min**: 19.88
-**temp_max**: 19.88
-**pressure**: 1016
-**sea_level**: 1016
-**grnd_level**: 1016
-**humidity**: 92
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>20</td></tr><tr><td>Feels Like</td><td>20</td></tr><tr><td>Temperature Max</td><td>20</td></tr><tr><td>Humidity</td><td>92</td></tr></table>
 #### 🪁 Wind info
 **speed**: 7 knots
 **deg**: 328 degrees
@@ -91,15 +51,7 @@
 ## Forecast for 29 of Jul at 04:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 21.28
-**feels_like**: 21.4
-**temp_min**: 21.28
-**temp_max**: 21.28
-**pressure**: 1013
-**sea_level**: 1013
-**grnd_level**: 1012
-**humidity**: 74
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>21</td></tr><tr><td>Feels Like</td><td>21</td></tr><tr><td>Temperature Max</td><td>21</td></tr><tr><td>Humidity</td><td>74</td></tr></table>
 #### 🪁 Wind info
 **speed**: 16 knots
 **deg**: 335 degrees
@@ -108,15 +60,7 @@
 ## Forecast for 29 of Jul at 07:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 20.6
-**feels_like**: 20.86
-**temp_min**: 20.6
-**temp_max**: 20.6
-**pressure**: 1014
-**sea_level**: 1014
-**grnd_level**: 1014
-**humidity**: 82
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>21</td></tr><tr><td>Feels Like</td><td>21</td></tr><tr><td>Temperature Max</td><td>21</td></tr><tr><td>Humidity</td><td>82</td></tr></table>
 #### 🪁 Wind info
 **speed**: 15 knots
 **deg**: 342 degrees
@@ -125,15 +69,7 @@
 ## Forecast for 29 of Jul at 10:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 26.7
-**feels_like**: 27.48
-**temp_min**: 26.7
-**temp_max**: 26.7
-**pressure**: 1015
-**sea_level**: 1015
-**grnd_level**: 1014
-**humidity**: 56
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>27</td></tr><tr><td>Feels Like</td><td>27</td></tr><tr><td>Temperature Max</td><td>27</td></tr><tr><td>Humidity</td><td>56</td></tr></table>
 #### 🪁 Wind info
 **speed**: 14 knots
 **deg**: 347 degrees
@@ -142,15 +78,7 @@
 ## Forecast for 29 of Jul at 13:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 31.34
-**feels_like**: 31.06
-**temp_min**: 31.34
-**temp_max**: 31.34
-**pressure**: 1014
-**sea_level**: 1014
-**grnd_level**: 1014
-**humidity**: 38
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>31</td></tr><tr><td>Feels Like</td><td>31</td></tr><tr><td>Temperature Max</td><td>31</td></tr><tr><td>Humidity</td><td>38</td></tr></table>
 #### 🪁 Wind info
 **speed**: 8 knots
 **deg**: 308 degrees
@@ -159,15 +87,7 @@
 ## Forecast for 29 of Jul at 16:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 32.15
-**feels_like**: 32.31
-**temp_min**: 32.15
-**temp_max**: 32.15
-**pressure**: 1012
-**sea_level**: 1012
-**grnd_level**: 1012
-**humidity**: 39
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>32</td></tr><tr><td>Feels Like</td><td>32</td></tr><tr><td>Temperature Max</td><td>32</td></tr><tr><td>Humidity</td><td>39</td></tr></table>
 #### 🪁 Wind info
 **speed**: 11 knots
 **deg**: 267 degrees
@@ -176,15 +96,7 @@
 ## Forecast for 29 of Jul at 19:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 32.28
-**feels_like**: 31.83
-**temp_min**: 32.28
-**temp_max**: 32.28
-**pressure**: 1012
-**sea_level**: 1012
-**grnd_level**: 1012
-**humidity**: 35
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>32</td></tr><tr><td>Feels Like</td><td>32</td></tr><tr><td>Temperature Max</td><td>32</td></tr><tr><td>Humidity</td><td>35</td></tr></table>
 #### 🪁 Wind info
 **speed**: 9 knots
 **deg**: 291 degrees
@@ -193,15 +105,7 @@
 ## Forecast for 29 of Jul at 22:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 26.52
-**feels_like**: 26.52
-**temp_min**: 26.52
-**temp_max**: 26.52
-**pressure**: 1014
-**sea_level**: 1014
-**grnd_level**: 1014
-**humidity**: 45
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>27</td></tr><tr><td>Feels Like</td><td>27</td></tr><tr><td>Temperature Max</td><td>27</td></tr><tr><td>Humidity</td><td>45</td></tr></table>
 #### 🪁 Wind info
 **speed**: 18 knots
 **deg**: 319 degrees
@@ -210,15 +114,7 @@
 ## Forecast for 30 of Jul at 01:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 24.32
-**feels_like**: 24.19
-**temp_min**: 24.32
-**temp_max**: 24.32
-**pressure**: 1015
-**sea_level**: 1015
-**grnd_level**: 1015
-**humidity**: 53
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>24</td></tr><tr><td>Feels Like</td><td>24</td></tr><tr><td>Temperature Max</td><td>24</td></tr><tr><td>Humidity</td><td>53</td></tr></table>
 #### 🪁 Wind info
 **speed**: 16 knots
 **deg**: 332 degrees
@@ -227,15 +123,7 @@
 ## Forecast for 30 of Jul at 04:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 21.62
-**feels_like**: 21.43
-**temp_min**: 21.62
-**temp_max**: 21.62
-**pressure**: 1015
-**sea_level**: 1015
-**grnd_level**: 1015
-**humidity**: 61
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>22</td></tr><tr><td>Feels Like</td><td>21</td></tr><tr><td>Temperature Max</td><td>22</td></tr><tr><td>Humidity</td><td>61</td></tr></table>
 #### 🪁 Wind info
 **speed**: 15 knots
 **deg**: 332 degrees
@@ -244,15 +132,7 @@
 ## Forecast for 30 of Jul at 07:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 19.87
-**feels_like**: 19.66
-**temp_min**: 19.87
-**temp_max**: 19.87
-**pressure**: 1016
-**sea_level**: 1016
-**grnd_level**: 1016
-**humidity**: 67
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>20</td></tr><tr><td>Feels Like</td><td>20</td></tr><tr><td>Temperature Max</td><td>20</td></tr><tr><td>Humidity</td><td>67</td></tr></table>
 #### 🪁 Wind info
 **speed**: 14 knots
 **deg**: 331 degrees
@@ -261,15 +141,7 @@
 ## Forecast for 30 of Jul at 10:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 26.13
-**feels_like**: 26.13
-**temp_min**: 26.13
-**temp_max**: 26.13
-**pressure**: 1017
-**sea_level**: 1017
-**grnd_level**: 1017
-**humidity**: 43
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>26</td></tr><tr><td>Feels Like</td><td>26</td></tr><tr><td>Temperature Max</td><td>26</td></tr><tr><td>Humidity</td><td>43</td></tr></table>
 #### 🪁 Wind info
 **speed**: 12 knots
 **deg**: 331 degrees
@@ -278,15 +150,7 @@
 ## Forecast for 30 of Jul at 13:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 31.64
-**feels_like**: 30.64
-**temp_min**: 31.64
-**temp_max**: 31.64
-**pressure**: 1017
-**sea_level**: 1017
-**grnd_level**: 1016
-**humidity**: 32
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>32</td></tr><tr><td>Feels Like</td><td>31</td></tr><tr><td>Temperature Max</td><td>32</td></tr><tr><td>Humidity</td><td>32</td></tr></table>
 #### 🪁 Wind info
 **speed**: 8 knots
 **deg**: 276 degrees
@@ -295,15 +159,7 @@
 ## Forecast for 30 of Jul at 16:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 31.81
-**feels_like**: 31.37
-**temp_min**: 31.81
-**temp_max**: 31.81
-**pressure**: 1015
-**sea_level**: 1015
-**grnd_level**: 1015
-**humidity**: 36
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>32</td></tr><tr><td>Feels Like</td><td>31</td></tr><tr><td>Temperature Max</td><td>32</td></tr><tr><td>Humidity</td><td>36</td></tr></table>
 #### 🪁 Wind info
 **speed**: 12 knots
 **deg**: 238 degrees
@@ -312,15 +168,7 @@
 ## Forecast for 30 of Jul at 19:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 31.56
-**feels_like**: 31.2
-**temp_min**: 31.56
-**temp_max**: 31.56
-**pressure**: 1015
-**sea_level**: 1015
-**grnd_level**: 1014
-**humidity**: 37
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>32</td></tr><tr><td>Feels Like</td><td>31</td></tr><tr><td>Temperature Max</td><td>32</td></tr><tr><td>Humidity</td><td>37</td></tr></table>
 #### 🪁 Wind info
 **speed**: 9 knots
 **deg**: 254 degrees
@@ -329,15 +177,7 @@
 ## Forecast for 30 of Jul at 22:00
 ### céu limpo
 #### ℹ️ Main info
-**temp**: 29.56
-**feels_like**: 28.29
-**temp_min**: 29.56
-**temp_max**: 29.56
-**pressure**: 1016
-**sea_level**: 1016
-**grnd_level**: 1016
-**humidity**: 29
-**temp_kf**: 0
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>30</td></tr><tr><td>Feels Like</td><td>28</td></tr><tr><td>Temperature Max</td><td>30</td></tr><tr><td>Humidity</td><td>29</td></tr></table>
 #### 🪁 Wind info
 **speed**: 19 knots
 **deg**: 325 degrees
