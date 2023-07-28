@@ -63,6 +63,7 @@ class ConvertJson():
             humidity_item = dct['main']['humidity']
             wind_item = round(dct['wind']['speed'])
             deg_item = dct['wind']['deg']
+            deg_arrow = (deg_item + 90) % 360
             gust_item = round(dct['wind']['gust'])
             
             text += f'## Forecast for {localized_date}\n'
@@ -81,7 +82,7 @@ class ConvertJson():
             text += '<table><tr><th>Metric</th><th>Value</th></tr>'
             text += f'<tr><td>Speed</td><td>{wind_item} kts</td></tr>'
             text += f'<tr><td>Direction</td><td>{deg_item}º</td></tr>'
-            text += f'<tr><td>Direction</td><td>{ARROW}</td></tr>'
+            text += f'<tr><td>Direction</td><td>{deg_arrow}</td></tr>'
             text += f'<tr><td>Gust</td><td>{gust_item} kts</td></tr></table>\n'
 
         return text
