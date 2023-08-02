@@ -1,14 +1,8 @@
 # ⛅ ISLANTILLA!
-```Forecast date 02 of Aug at 08:29```
+```Forecast date 02 of Aug at 11:22```
 
 
 
-## Forecast for 02 of Aug at 10:00
-### céu limpo
-#### ℹ️ Main info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>26º</td></tr><tr><td>Feels Like</td><td>26º</td></tr><tr><td>Temperature Max</td><td>26º</td></tr><tr><td>Pressure</td><td>1014 hPa</td></tr><tr><td>Humidity</td><td>57%</td></tr></table>
-#### 🪁 Wind info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td>7 kts</td></tr><tr><td>Direction</td><td>337º</td></tr><tr><td>Direction</td><td><svg viewBox="0 0 600 600"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="250" y1="250" x2="500" y2="250" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" transform="rotate(67, 250, 250)" /></svg></td></tr><tr><td>Gust</td><td>9 kts</td></tr></table>
 ## Forecast for 02 of Aug at 13:00
 ### céu limpo
 #### ℹ️ Main info
@@ -123,3 +117,9 @@
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>27º</td></tr><tr><td>Feels Like</td><td>27º</td></tr><tr><td>Temperature Max</td><td>27º</td></tr><tr><td>Pressure</td><td>1014 hPa</td></tr><tr><td>Humidity</td><td>39%</td></tr></table>
 #### 🪁 Wind info
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td>5 kts</td></tr><tr><td>Direction</td><td>230º</td></tr><tr><td>Direction</td><td><svg viewBox="0 0 600 600"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="250" y1="250" x2="500" y2="250" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" transform="rotate(320, 250, 250)" /></svg></td></tr><tr><td>Gust</td><td>7 kts</td></tr></table>
+## Forecast for 04 of Aug at 22:00
+### céu limpo
+#### ℹ️ Main info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td>24º</td></tr><tr><td>Feels Like</td><td>23º</td></tr><tr><td>Temperature Max</td><td>24º</td></tr><tr><td>Pressure</td><td>1016 hPa</td></tr><tr><td>Humidity</td><td>48%</td></tr></table>
+#### 🪁 Wind info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td>2 kts</td></tr><tr><td>Direction</td><td>178º</td></tr><tr><td>Direction</td><td><svg viewBox="0 0 600 600"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="250" y1="250" x2="500" y2="250" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" transform="rotate(268, 250, 250)" /></svg></td></tr><tr><td>Gust</td><td>2 kts</td></tr></table>
