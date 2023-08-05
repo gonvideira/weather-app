@@ -63,11 +63,7 @@ class ConvertJson():
             wind_item = round(dct['wind']['speed'])
             deg_item = dct['wind']['deg']
             deg_arrow = (deg_item + 180) % 360
-            
-            # svg_arrow = f'<svg viewBox="0 0 100 100"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="0" y1="50" x2="50" y2="50" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" transform="rotate({deg_arrow}, 50, 50) translate(0,5)" /></svg>'
-            
             svg_arrow = f'<svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate({deg_arrow},50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg>'
-            
             gust_item = round(dct['wind']['gust'])
             
             text += f'## Forecast for {localized_date}\n'
@@ -75,19 +71,19 @@ class ConvertJson():
             text += '#### ℹ️ Main info\n'
             
             text += '<table><tr><th>Metric</th><th>Value</th></tr>'
-            text += f'<tr><td>Temperature</td><td>{temp_item}º</td></tr>'
-            text += f'<tr><td>Feels Like</td><td>{feelslike_item}º</td></tr>'
-            text += f'<tr><td>Temperature Max</td><td>{tempmax_item}º</td></tr>'
-            text += f'<tr><td>Pressure</td><td>{pressure_item} hPa</td></tr>'
-            text += f'<tr><td>Humidity</td><td>{humidity_item}%</td></tr></table>\n'
+            text += f'<tr><td>Temperature</td><td><b>{temp_item}º</b></td></tr>'
+            text += f'<tr><td>Feels Like</td><td><b>{feelslike_item}º</b></td></tr>'
+            text += f'<tr><td>Temperature Max</td><td><b>{tempmax_item}º</b></td></tr>'
+            text += f'<tr><td>Pressure</td><td><b>{pressure_item} hPa</b></td></tr>'
+            text += f'<tr><td>Humidity</td><td><b>{humidity_item}%</b></td></tr></table>\n'
             
             text += '#### 🪁 Wind info\n'
 
             text += '<table><tr><th>Metric</th><th>Value</th></tr>'
-            text += f'<tr><td>Speed</td><td>{wind_item} kts</td></tr>'
-            text += f'<tr><td>Direction</td><td>{deg_item}º</td></tr>'
+            text += f'<tr><td>Speed</td><td><b>{wind_item} kts</b></td></tr>'
+            text += f'<tr><td>Direction</td><td><b>{deg_item}º</b></td></tr>'
             text += f'<tr><td>Direction</td><td>{svg_arrow}</td></tr>'
-            text += f'<tr><td>Gust</td><td>{gust_item} kts</td></tr></table>\n'
+            text += f'<tr><td>Gust</td><td><b>{gust_item} kts</b></td></tr></table>\n'
 
         return text
 
