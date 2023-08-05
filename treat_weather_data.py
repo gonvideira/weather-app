@@ -62,8 +62,11 @@ class ConvertJson():
             humidity_item = dct['main']['humidity']
             wind_item = round(dct['wind']['speed'])
             deg_item = dct['wind']['deg']
-            deg_arrow = (deg_item + 90) % 360
-            svg_arrow = f'<svg viewBox="0 0 100 100"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="0" y1="50" x2="50" y2="50" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" transform="rotate({deg_arrow}, 50, 50) translate(0,5)" /></svg>'
+            deg_arrow = (deg_item + 180) % 360
+            # svg_arrow = f'<svg viewBox="0 0 100 100"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="0" y1="50" x2="50" y2="50" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" transform="rotate({deg_arrow}, 50, 50) translate(0,5)" /></svg>'
+            
+            svg_arrow = f'<svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate({deg_arrow},50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg>'
+            
             gust_item = round(dct['wind']['gust'])
             
             text += f'## Forecast for {localized_date}\n'
