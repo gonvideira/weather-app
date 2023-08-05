@@ -11,7 +11,6 @@ import pytz
 FN = 'output/weather-output.json'
 OUTPUT = 'output/README.md'
 TITLE = '⛅ ISLANTILLA!'
-ARROW = '<svg viewBox="0 0 350 350"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="0" y1="50" x2="250" y2="50" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" transform="rotate(45)" /></svg>'
 
 def forecast_date():
     """Function to get forecast date"""
@@ -64,7 +63,7 @@ class ConvertJson():
             wind_item = round(dct['wind']['speed'])
             deg_item = dct['wind']['deg']
             deg_arrow = (deg_item + 90) % 360
-            svg_arrow = f'<svg viewBox="0 0 600 600"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="250" y1="250" x2="500" y2="250" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" transform="rotate({deg_arrow}, 250, 250)" /></svg>'
+            svg_arrow = f'<svg viewBox="0 0 100 100"><defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs><line x1="0" y1="50" x2="50" y2="50" stroke="#000" stroke-width="8" marker-end="url(#arrowhead)" transform="rotate({deg_arrow}, 50, 50) translate(0,5)" /></svg>'
             gust_item = round(dct['wind']['gust'])
             
             text += f'## Forecast for {localized_date}\n'
