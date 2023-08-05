@@ -1,5 +1,8 @@
-# weather-app
+# ⛅ Weather App
 To work and develop my weather app project. 
+
+## Check out the weather App WIP
+[Weather App](https://gonvideira.github.io/weather-app/output)
 
 ## Task List
 - [x] Add a worflow to install Python
@@ -10,7 +13,7 @@ To work and develop my weather app project.
 - [x] Work on a more complicated python file and try to commit changes to a local file in the repo
 - [x] convert wind to knots
 - [ ] treat data and gain insights
-- [ ] find away to publish or push data to users
+- [x] find away to publish or push data to users
 - [ ] work on different kitesurf locations
 
 > Check the [Python engineer page](https://www.python-engineer.com/posts/run-python-github-actions/)  
