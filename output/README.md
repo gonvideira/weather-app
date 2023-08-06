@@ -1,14 +1,8 @@
 # ⛅ ISLANTILLA!
-```Forecast date 06 of Aug at 17:19```
+```Forecast date 06 of Aug at 20:21```
 
 
 
-## Forecast for 06 of Aug at 19:00
-### céu limpo
-#### ℹ️ Main info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>30º</b></td></tr><tr><td>Feels Like</td><td><b>29º</b></td></tr><tr><td>Temperature Max</td><td><b>30º</b></td></tr><tr><td>Pressure</td><td><b>1011 hPa</b></td></tr><tr><td>Humidity</td><td><b>33%</b></td></tr></table>
-#### 🪁 Wind info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>6 kts</b></td></tr><tr><td>Direction</td><td><b>226º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(46,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>7 kts</b></td></tr></table>
 ## Forecast for 06 of Aug at 22:00
 ### céu limpo
 #### ℹ️ Main info
@@ -123,3 +117,9 @@
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>21º</b></td></tr><tr><td>Feels Like</td><td><b>22º</b></td></tr><tr><td>Temperature Max</td><td><b>21º</b></td></tr><tr><td>Pressure</td><td><b>1013 hPa</b></td></tr><tr><td>Humidity</td><td><b>92%</b></td></tr></table>
 #### 🪁 Wind info
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>2 kts</b></td></tr><tr><td>Direction</td><td><b>138º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(318,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>2 kts</b></td></tr></table>
+## Forecast for 09 of Aug at 07:00
+### nuvens dispersas
+#### ℹ️ Main info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>22º</b></td></tr><tr><td>Feels Like</td><td><b>23º</b></td></tr><tr><td>Temperature Max</td><td><b>22º</b></td></tr><tr><td>Pressure</td><td><b>1014 hPa</b></td></tr><tr><td>Humidity</td><td><b>94%</b></td></tr></table>
+#### 🪁 Wind info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>2 kts</b></td></tr><tr><td>Direction</td><td><b>186º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(6,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>4 kts</b></td></tr></table>
