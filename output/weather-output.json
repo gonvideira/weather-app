@@ -1,41 +1,5 @@
 [
       {
-            "dt": 1691280000,
-            "main": {
-                  "temp": 24.51,
-                  "feels_like": 24.4,
-                  "temp_min": 24.51,
-                  "temp_max": 24.51,
-                  "pressure": 1014,
-                  "sea_level": 1014,
-                  "grnd_level": 1014,
-                  "humidity": 53,
-                  "temp_kf": 0
-            },
-            "weather": [
-                  {
-                        "id": 800,
-                        "main": "Clear",
-                        "description": "c\u00e9u limpo",
-                        "icon": "01n"
-                  }
-            ],
-            "clouds": {
-                  "all": 0
-            },
-            "wind": {
-                  "speed": 3.45,
-                  "deg": 208,
-                  "gust": 3.61
-            },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                  "pod": "n"
-            },
-            "dt_txt": "2023-08-06 00:00:00"
-      },
-      {
             "dt": 1691290800,
             "main": {
                   "temp": 22.93,
@@ -718,5 +682,41 @@
                   "pod": "d"
             },
             "dt_txt": "2023-08-08 09:00:00"
+      },
+      {
+            "dt": 1691496000,
+            "main": {
+                  "temp": 27.89,
+                  "feels_like": 28.88,
+                  "temp_min": 27.89,
+                  "temp_max": 27.89,
+                  "pressure": 1012,
+                  "sea_level": 1012,
+                  "grnd_level": 1012,
+                  "humidity": 56,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 800,
+                        "main": "Clear",
+                        "description": "c\u00e9u limpo",
+                        "icon": "01d"
+                  }
+            ],
+            "clouds": {
+                  "all": 4
+            },
+            "wind": {
+                  "speed": 3.96,
+                  "deg": 193,
+                  "gust": 5.01
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                  "pod": "d"
+            },
+            "dt_txt": "2023-08-08 12:00:00"
       }
 ]
