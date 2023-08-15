@@ -1,14 +1,8 @@
 # ⛅ ISLANTILLA!
-```Forecast date 15 of Aug at 11:18```
+```Forecast date 15 of Aug at 14:35```
 
 
 
-## Forecast for 15 of Aug at 13:00
-### céu limpo
-#### ℹ️ Main info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>30º</b></td></tr><tr><td>Feels Like</td><td><b>30º</b></td></tr><tr><td>Temperature Max</td><td><b>30º</b></td></tr><tr><td>Pressure</td><td><b>1013 hPa</b></td></tr><tr><td>Humidity</td><td><b>36%</b></td></tr></table>
-#### 🪁 Wind info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>3 kts</b></td></tr><tr><td>Direction</td><td><b>302º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(122,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>4 kts</b></td></tr></table>
 ## Forecast for 15 of Aug at 16:00
 ### céu pouco nublado
 #### ℹ️ Main info
@@ -123,3 +117,9 @@
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>25º</b></td></tr><tr><td>Feels Like</td><td><b>25º</b></td></tr><tr><td>Temperature Max</td><td><b>25º</b></td></tr><tr><td>Pressure</td><td><b>1014 hPa</b></td></tr><tr><td>Humidity</td><td><b>50%</b></td></tr></table>
 #### 🪁 Wind info
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>8 kts</b></td></tr><tr><td>Direction</td><td><b>321º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(141,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>13 kts</b></td></tr></table>
+## Forecast for 18 of Aug at 01:00
+### nuvens dispersas
+#### ℹ️ Main info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>23º</b></td></tr><tr><td>Feels Like</td><td><b>23º</b></td></tr><tr><td>Temperature Max</td><td><b>23º</b></td></tr><tr><td>Pressure</td><td><b>1015 hPa</b></td></tr><tr><td>Humidity</td><td><b>61%</b></td></tr></table>
+#### 🪁 Wind info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>7 kts</b></td></tr><tr><td>Direction</td><td><b>334º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(154,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>13 kts</b></td></tr></table>
