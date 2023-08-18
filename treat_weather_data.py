@@ -10,7 +10,7 @@ import pytz
 ## input variables
 FN = 'output/weather-output.json'
 OUTPUT = 'output/README.md'
-TITLE = '⛅ ISLANTILLA!'
+TITLE = '⛅ MOLEDO!'
 
 def forecast_date():
     """Function to get forecast date"""
