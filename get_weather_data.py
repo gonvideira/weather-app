@@ -12,8 +12,8 @@ import requests
 
 # Constant variables
 API_KEY = os.environ['WEATHER_MAP_API']
-LAT = 37.20387317514655
-LON = -7.233373789447282
+LAT = 41.8457963
+LON = -8.8667377
 COUNT = 20
 NOW = dt.now(tz.utc)
 FN = 'output/weather-output.json'
