@@ -1,14 +1,8 @@
 # ⛅ MOLEDO!
-```Forecast date 21 of Aug at 14:36```
+```Forecast date 21 of Aug at 17:20```
 
 
 
-## Forecast for 21 of Aug at 16:00
-### céu pouco nublado
-#### ℹ️ Main info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>24º</b></td></tr><tr><td>Feels Like</td><td><b>24º</b></td></tr><tr><td>Temperature Max</td><td><b>24º</b></td></tr><tr><td>Pressure</td><td><b>1018 hPa</b></td></tr><tr><td>Humidity</td><td><b>70%</b></td></tr></table>
-#### 🪁 Wind info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>5 kts</b></td></tr><tr><td>Direction</td><td><b>329º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(149,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>7 kts</b></td></tr></table>
 ## Forecast for 21 of Aug at 19:00
 ### céu pouco nublado
 #### ℹ️ Main info
@@ -123,3 +117,9 @@
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>21º</b></td></tr><tr><td>Feels Like</td><td><b>21º</b></td></tr><tr><td>Temperature Max</td><td><b>21º</b></td></tr><tr><td>Pressure</td><td><b>1011 hPa</b></td></tr><tr><td>Humidity</td><td><b>76%</b></td></tr></table>
 #### 🪁 Wind info
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>3 kts</b></td></tr><tr><td>Direction</td><td><b>176º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(356,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>3 kts</b></td></tr></table>
+## Forecast for 24 of Aug at 04:00
+### nublado
+#### ℹ️ Main info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>20º</b></td></tr><tr><td>Feels Like</td><td><b>20º</b></td></tr><tr><td>Temperature Max</td><td><b>20º</b></td></tr><tr><td>Pressure</td><td><b>1011 hPa</b></td></tr><tr><td>Humidity</td><td><b>85%</b></td></tr></table>
+#### 🪁 Wind info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>4 kts</b></td></tr><tr><td>Direction</td><td><b>167º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(347,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>5 kts</b></td></tr></table>
