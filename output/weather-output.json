@@ -1,41 +1,5 @@
 [
       {
-            "dt": 1693494000,
-            "main": {
-                  "temp": 21.95,
-                  "feels_like": 22.08,
-                  "temp_min": 21.95,
-                  "temp_max": 21.95,
-                  "pressure": 1016,
-                  "sea_level": 1016,
-                  "grnd_level": 1015,
-                  "humidity": 72,
-                  "temp_kf": 0
-            },
-            "weather": [
-                  {
-                        "id": 803,
-                        "main": "Clouds",
-                        "description": "nuvens quebradas",
-                        "icon": "04d"
-                  }
-            ],
-            "clouds": {
-                  "all": 79
-            },
-            "wind": {
-                  "speed": 6.29,
-                  "deg": 330,
-                  "gust": 8.62
-            },
-            "visibility": 10000,
-            "pop": 0,
-            "sys": {
-                  "pod": "d"
-            },
-            "dt_txt": "2023-08-31 15:00:00"
-      },
-      {
             "dt": 1693504800,
             "main": {
                   "temp": 19.68,
@@ -721,5 +685,41 @@
                   "pod": "n"
             },
             "dt_txt": "2023-09-03 00:00:00"
+      },
+      {
+            "dt": 1693710000,
+            "main": {
+                  "temp": 17.26,
+                  "feels_like": 17.13,
+                  "temp_min": 17.26,
+                  "temp_max": 17.26,
+                  "pressure": 1012,
+                  "sea_level": 1012,
+                  "grnd_level": 1011,
+                  "humidity": 80,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 803,
+                        "main": "Clouds",
+                        "description": "nuvens quebradas",
+                        "icon": "04n"
+                  }
+            ],
+            "clouds": {
+                  "all": 77
+            },
+            "wind": {
+                  "speed": 2.88,
+                  "deg": 90,
+                  "gust": 3.27
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                  "pod": "n"
+            },
+            "dt_txt": "2023-09-03 03:00:00"
       }
 ]
