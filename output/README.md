@@ -1,14 +1,8 @@
 # ⛅ MOLEDO!
-```Forecast date 01 of Sep at 03:23```
+```Forecast date 01 of Sep at 05:20```
 
 
 
-## Forecast for 01 of Sep at 04:00
-### céu limpo
-#### ℹ️ Main info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>16º</b></td></tr><tr><td>Feels Like</td><td><b>17º</b></td></tr><tr><td>Temperature Max</td><td><b>16º</b></td></tr><tr><td>Pressure</td><td><b>1016 hPa</b></td></tr><tr><td>Humidity</td><td><b>93%</b></td></tr></table>
-#### 🪁 Wind info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>2 kts</b></td></tr><tr><td>Direction</td><td><b>354º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(174,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>3 kts</b></td></tr></table>
 ## Forecast for 01 of Sep at 07:00
 ### nuvens quebradas
 #### ℹ️ Main info
@@ -123,3 +117,9 @@
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>25º</b></td></tr><tr><td>Feels Like</td><td><b>25º</b></td></tr><tr><td>Temperature Max</td><td><b>25º</b></td></tr><tr><td>Pressure</td><td><b>1011 hPa</b></td></tr><tr><td>Humidity</td><td><b>52%</b></td></tr></table>
 #### 🪁 Wind info
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>2 kts</b></td></tr><tr><td>Direction</td><td><b>333º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(153,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>4 kts</b></td></tr></table>
+## Forecast for 03 of Sep at 16:00
+### nublado
+#### ℹ️ Main info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>22º</b></td></tr><tr><td>Feels Like</td><td><b>22º</b></td></tr><tr><td>Temperature Max</td><td><b>22º</b></td></tr><tr><td>Pressure</td><td><b>1009 hPa</b></td></tr><tr><td>Humidity</td><td><b>67%</b></td></tr></table>
+#### 🪁 Wind info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>3 kts</b></td></tr><tr><td>Direction</td><td><b>337º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(157,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>7 kts</b></td></tr></table>
