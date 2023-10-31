@@ -1,83 +1,5 @@
 [
       {
-            "dt": 1698775200,
-            "main": {
-                  "temp": 16.14,
-                  "feels_like": 16.03,
-                  "temp_min": 16.14,
-                  "temp_max": 16.14,
-                  "pressure": 1014,
-                  "sea_level": 1014,
-                  "grnd_level": 1014,
-                  "humidity": 85,
-                  "temp_kf": 0
-            },
-            "weather": [
-                  {
-                        "id": 500,
-                        "main": "Rain",
-                        "description": "chuva fraca",
-                        "icon": "10n"
-                  }
-            ],
-            "clouds": {
-                  "all": 79
-            },
-            "wind": {
-                  "speed": 7.18,
-                  "deg": 197,
-                  "gust": 11.69
-            },
-            "visibility": 10000,
-            "pop": 0.96,
-            "rain": {
-                  "3h": 1.53
-            },
-            "sys": {
-                  "pod": "n"
-            },
-            "dt_txt": "2023-10-31 18:00:00"
-      },
-      {
-            "dt": 1698786000,
-            "main": {
-                  "temp": 16.39,
-                  "feels_like": 16.25,
-                  "temp_min": 16.39,
-                  "temp_max": 16.39,
-                  "pressure": 1015,
-                  "sea_level": 1015,
-                  "grnd_level": 1014,
-                  "humidity": 83,
-                  "temp_kf": 0
-            },
-            "weather": [
-                  {
-                        "id": 500,
-                        "main": "Rain",
-                        "description": "chuva fraca",
-                        "icon": "10n"
-                  }
-            ],
-            "clouds": {
-                  "all": 73
-            },
-            "wind": {
-                  "speed": 8.91,
-                  "deg": 218,
-                  "gust": 13.48
-            },
-            "visibility": 10000,
-            "pop": 0.68,
-            "rain": {
-                  "3h": 1.07
-            },
-            "sys": {
-                  "pod": "n"
-            },
-            "dt_txt": "2023-10-31 21:00:00"
-      },
-      {
             "dt": 1698796800,
             "main": {
                   "temp": 15.65,
@@ -778,5 +700,83 @@
                   "pod": "n"
             },
             "dt_txt": "2023-11-03 03:00:00"
+      },
+      {
+            "dt": 1698991200,
+            "main": {
+                  "temp": 14.2,
+                  "feels_like": 13.69,
+                  "temp_min": 14.2,
+                  "temp_max": 14.2,
+                  "pressure": 1009,
+                  "sea_level": 1009,
+                  "grnd_level": 1008,
+                  "humidity": 77,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 500,
+                        "main": "Rain",
+                        "description": "chuva fraca",
+                        "icon": "10n"
+                  }
+            ],
+            "clouds": {
+                  "all": 100
+            },
+            "wind": {
+                  "speed": 11.07,
+                  "deg": 291,
+                  "gust": 14.35
+            },
+            "visibility": 10000,
+            "pop": 1,
+            "rain": {
+                  "3h": 1.55
+            },
+            "sys": {
+                  "pod": "n"
+            },
+            "dt_txt": "2023-11-03 06:00:00"
+      },
+      {
+            "dt": 1699002000,
+            "main": {
+                  "temp": 14.4,
+                  "feels_like": 13.88,
+                  "temp_min": 14.4,
+                  "temp_max": 14.4,
+                  "pressure": 1011,
+                  "sea_level": 1011,
+                  "grnd_level": 1010,
+                  "humidity": 76,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 500,
+                        "main": "Rain",
+                        "description": "chuva fraca",
+                        "icon": "10d"
+                  }
+            ],
+            "clouds": {
+                  "all": 98
+            },
+            "wind": {
+                  "speed": 10.18,
+                  "deg": 301,
+                  "gust": 13.32
+            },
+            "visibility": 10000,
+            "pop": 1,
+            "rain": {
+                  "3h": 1.96
+            },
+            "sys": {
+                  "pod": "d"
+            },
+            "dt_txt": "2023-11-03 09:00:00"
       }
 ]
