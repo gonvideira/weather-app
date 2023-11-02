@@ -1,14 +1,8 @@
 # ⛅ MOLEDO!
-```Forecast date 02 of Nov at 16:19```
+```Forecast date 02 of Nov at 19:25```
 
 
 
-## Forecast for 02 of Nov at 18:00
-### chuva fraca
-#### ℹ️ Main info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>13º</b></td></tr><tr><td>Feels Like</td><td><b>12º</b></td></tr><tr><td>Temperature Max</td><td><b>13º</b></td></tr><tr><td>Pressure</td><td><b>1008 hPa</b></td></tr><tr><td>Humidity</td><td><b>68%</b></td></tr></table>
-#### 🪁 Wind info
-<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>13 kts</b></td></tr><tr><td>Direction</td><td><b>284º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(104,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>17 kts</b></td></tr></table>
 ## Forecast for 02 of Nov at 21:00
 ### chuva fraca
 #### ℹ️ Main info
@@ -123,3 +117,9 @@
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>14º</b></td></tr><tr><td>Feels Like</td><td><b>14º</b></td></tr><tr><td>Temperature Max</td><td><b>14º</b></td></tr><tr><td>Pressure</td><td><b>1004 hPa</b></td></tr><tr><td>Humidity</td><td><b>79%</b></td></tr></table>
 #### 🪁 Wind info
 <table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>11 kts</b></td></tr><tr><td>Direction</td><td><b>266º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(86,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>14 kts</b></td></tr></table>
+## Forecast for 05 of Nov at 06:00
+### chuva fraca
+#### ℹ️ Main info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Temperature</td><td><b>14º</b></td></tr><tr><td>Feels Like</td><td><b>14º</b></td></tr><tr><td>Temperature Max</td><td><b>14º</b></td></tr><tr><td>Pressure</td><td><b>1006 hPa</b></td></tr><tr><td>Humidity</td><td><b>76%</b></td></tr></table>
+#### 🪁 Wind info
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Speed</td><td><b>11 kts</b></td></tr><tr><td>Direction</td><td><b>265º</b></td></tr><tr><td>Direction</td><td><svg version="1.1" class="arrow tcell" viewBox="0 0 100 100"><g transform="rotate(85,50,50) translate(0,5)"><path d="m50,0 -20,30 16,-3 -3,63 14,0 -3,-63 16,3 -20,-30z" fill="black" stroke-width="0"></path></g></svg></td></tr><tr><td>Gust</td><td><b>14 kts</b></td></tr></table>
