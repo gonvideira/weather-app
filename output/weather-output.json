@@ -1,44 +1,5 @@
 [
       {
-            "dt": 1698883200,
-            "main": {
-                  "temp": 15.7,
-                  "feels_like": 15.39,
-                  "temp_min": 15.7,
-                  "temp_max": 15.7,
-                  "pressure": 1007,
-                  "sea_level": 1007,
-                  "grnd_level": 1007,
-                  "humidity": 79,
-                  "temp_kf": 0
-            },
-            "weather": [
-                  {
-                        "id": 501,
-                        "main": "Rain",
-                        "description": "chuva moderada",
-                        "icon": "10n"
-                  }
-            ],
-            "clouds": {
-                  "all": 100
-            },
-            "wind": {
-                  "speed": 10.13,
-                  "deg": 282,
-                  "gust": 20.78
-            },
-            "visibility": 10000,
-            "pop": 1,
-            "rain": {
-                  "3h": 6.67
-            },
-            "sys": {
-                  "pod": "n"
-            },
-            "dt_txt": "2023-11-02 00:00:00"
-      },
-      {
             "dt": 1698894000,
             "main": {
                   "temp": 14.83,
@@ -778,5 +739,44 @@
                   "pod": "d"
             },
             "dt_txt": "2023-11-04 09:00:00"
+      },
+      {
+            "dt": 1699099200,
+            "main": {
+                  "temp": 15.41,
+                  "feels_like": 14.91,
+                  "temp_min": 15.41,
+                  "temp_max": 15.41,
+                  "pressure": 1000,
+                  "sea_level": 1000,
+                  "grnd_level": 999,
+                  "humidity": 73,
+                  "temp_kf": 0
+            },
+            "weather": [
+                  {
+                        "id": 500,
+                        "main": "Rain",
+                        "description": "chuva fraca",
+                        "icon": "10d"
+                  }
+            ],
+            "clouds": {
+                  "all": 84
+            },
+            "wind": {
+                  "speed": 12.35,
+                  "deg": 254,
+                  "gust": 21.12
+            },
+            "visibility": 10000,
+            "pop": 0.99,
+            "rain": {
+                  "3h": 0.34
+            },
+            "sys": {
+                  "pod": "d"
+            },
+            "dt_txt": "2023-11-04 12:00:00"
       }
 ]
