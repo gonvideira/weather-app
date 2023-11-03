@@ -1,5 +1,6 @@
 # ⛅ Weather App
 To work and develop my weather app project. 
+> This is now on workflow dispatch, in order to save on computing hours. 
 
 ## Check out the weather App WIP
 [Weather App](https://gonvideira.github.io/weather-app/output)
@@ -14,7 +15,7 @@ To work and develop my weather app project.
 - [x] convert wind to knots
 - [ ] treat data and gain insights
 - [x] find away to publish or push data to users
-- [ ] work on different kitesurf locations
+- [x] work on different kitesurf locations
 
 > Check the [Python engineer page](https://www.python-engineer.com/posts/run-python-github-actions/)  
 > Public weather API: [Open Weather Maps API](https://openweathermap.org/api/one-call-3#how) and [Open Weather Maps - Caparica](https://openweathermap.org/city/8013114) and [AccuWeather](https://developer.accuweather.com/packages)
