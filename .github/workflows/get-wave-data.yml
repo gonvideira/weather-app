@@ -3,7 +3,7 @@ name: wave data
 on: 
   workflow_dispatch:
   schedule:
-    - cron:  '14 2 */2 * *'
+    - cron:  '14 2 * * *'
 
 jobs:
   retrieve:
