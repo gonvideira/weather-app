@@ -5,8 +5,10 @@ from datetime import datetime as dt
 from datetime import timezone as tz
 import pytz
 import requests
+import pandas as pd
 
-FN = "algarve-wave-data/weather-data.json"
+FOLDER = 'algarve-wave-data'
+FN = FOLDER + "/weather-data.json"
 NOW = dt.now(tz.utc)
 
 def remove_duplicate_items(_api_data, _key):
@@ -25,10 +27,10 @@ def remove_duplicate_items(_api_data, _key):
         cleaned_data.append(_api_data[key])
     print(
         f"Total duplicates removed: {len(_api_data) - len(unique_elements)}, Total items: {len(_api_data)}, Final items:{len(unique_elements)}")
-    print(f"Final items in list: {len(cleaned_data)}")
+    print(f"Final items in list: {len(cleaned_data)}!\n")
     # Sort the JSON data based on the value of the brand key
     cleaned_data.sort(key=lambda x: x['SDATA'])
-    print(f'The sorted JSON data based on the value of the date:\n{cleaned_data}')
+    # print(f'The sorted JSON data based on the value of the date:\n{cleaned_data}')
     return cleaned_data
 
 def write_json(new_data, filename):
@@ -40,7 +42,6 @@ def write_json(new_data, filename):
         # Join new_data with file_data
         for data in new_data:
             file_data.append(data)
-        print(f"New file data now is:\n{file_data}.\n")
         # delete duplicates
         new_data = remove_duplicate_items(file_data, 'SDATA')
         # Sets file's current position at offset.
@@ -62,5 +63,24 @@ def retrieve_data():
     response = requests.get(URL, timeout=10)
     decoded_data=response.text.encode().decode('utf-8-sig')
     new_data = json.loads(decoded_data)
+    print("Data retrieved!\n")
     # call write_json function to append new data to file
     write_json(new_data, FN)
+    delete_files()
+    create_csv(FN)
+    return print("All done!\n")
+
+def delete_files():
+    """delete detailed"""
+    try:
+        os.remove(FOLDER + "/algarve-wave-data.csv")
+    except FileNotFoundError:
+        print('CSV file not present!\n')
+
+    return print('Folder clean!\n')
+
+def create_csv(json_file):
+    """create a CSV from the updated json file"""
+    df = pd.read_json(json_file,encoding='utf-8')
+    df.to_csv(FOLDER + '/algarve-wave-data.csv',encoding='utf-8',index=False)
+    return print('CSV file created!\n')
