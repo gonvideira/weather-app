@@ -65,28 +65,24 @@ def retrieve_data(url_map):
         print(f"Data -{key}- retrieved!\n")
         # call write_json function to append new data to file
         file_name = FOLDER + f"/weather-data-{key}.json"
+        csv_name = FOLDER + f"/weather-data-{key}.csv"
         write_json(new_data, file_name)
-        delete_files()
-        create_csv(file_name, key)
+        delete_files(csv_name)
+        create_csv(file_name, csv_name)
 
     return print("All done!\n")
 
-def delete_files():
+def delete_files(csv_name):
     """delete detailed"""
     try:
-        # Get All List of Files
-        for file_name in os.listdir(FOLDER):
-            #Check file extension
-            if file_name.endswith('.csv'):
-                # Remove File
-                os.remove(FOLDER + file_name)
+        os.remove(csv_name)
     except FileNotFoundError:
         print('CSV file not present!\n')
 
     return print('Folder clean!\n')
 
-def create_csv(json_file, key):
+def create_csv(json_file, csv_name):
     """create a CSV from the updated json file"""
     df = pd.read_json(json_file,encoding='utf-8')
-    df.to_csv(FOLDER + f'/weather-data-{key}.csv',encoding='utf-8',index=False)
+    df.to_csv(csv_name,encoding='utf-8',index=False)
     return print('CSV file created!\n')
