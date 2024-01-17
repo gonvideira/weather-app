@@ -63,6 +63,7 @@ def retrieve_data(url_map):
         decoded_data=response.text.encode().decode('utf-8-sig')
         new_data = json.loads(decoded_data)
         print(f"Data -{key}- retrieved!\n")
+        print(f"Data here:\n{new_data}\n")
         # call write_json function to append new data to file
         file_name = FOLDER + f"/weather-data-{key}.json"
         csv_name = FOLDER + f"/weather-data-{key}.csv"
