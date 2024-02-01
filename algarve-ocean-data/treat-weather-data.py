@@ -4,19 +4,7 @@ from datetime import date
 from datetime import timedelta
 from matplotlib import pyplot as plt
 
-
-# yesterday = date.today() - timedelta(days = 1)
 FN = 'weather-data-HEIGHT.json'
-
-# def import_height(file_name):
-#     """Imports and cleans Data, returns dataframe"""
-#     df = pd.read_json(file_name,encoding='utf8',convert_dates=['SDATA'])
-#     df.set_index('SDATA',inplace=True)
-#     return df
-
-# def report_yesterday(df):
-#     """Provides only yesterday's values"""
-#     return df[yesterday:]
 
 class HeightData():
     """Class that handles Wave Height Data"""
@@ -63,16 +51,20 @@ class HeightData():
         df['Data'] = df.index.date
         grouped = df.groupby('Data').max()
         return grouped
-    
-    def plot_histogram(self):
+
+    def plot_hist(self,parameter):
         """Plots histogram with all data for max Hs daily"""
         df = self.import_height()
-        df['Data'] = df.index.date
-        grouped = df.groupby('Data').max()['HS']
-        grouped.plot(kind="hist",title="Histograma de valores máximos de Hs diários!")
-        # Bar labels here: https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_label_demo.html
+        fig, ax = plt.subplots(tight_layout=True)
+        N, bins, patches = ax.hist(df[parameter], bins=6,linewidth=2.5, edgecolor="white")
+        total_n = N.sum()
+        weights = N * 100 / total_n
+        ax.set(ylabel='# occurrences', xlabel=f'{parameter}(m)', title=f'{parameter} wave height, {int(total_n)} occurrences')
+        for patch, label in zip(patches, weights): 
+            height = patch.get_height() 
+            ax.text(patch.get_x() + patch.get_width() / 2, height+0.01, "{}%".format(round(label,1)), 
+                    ha='center', va='bottom')
         plt.show()
-        return grouped
 
 # df_all = data.import_height()
 # HmaxYesterday, HsYesterday = data.yesterday_height()
@@ -82,4 +74,4 @@ class HeightData():
 
 if __name__ == "__main__":
     data = HeightData(FN)
-    data.plot_histogram()
+    data.plot_hist('HS')
